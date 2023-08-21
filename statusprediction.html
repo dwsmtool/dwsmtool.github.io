@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=yWvTdFs-9C2WW9zdal240ObC-VUXGwMltduuiVb3zFGRvcTaj2AfzkZFetnwZMsGZ_9ccsYn10rJU-0M0EaBECZMPYyekHTbhKNP5imWZEGqPQLPEINkiaE8outbdVWA4YC_wGUZzSnbc-vpWktaYv8081oPfV_x5BfbKnYWlLfIlA9-Hkf-b2gjLWvWJqNNv5GHg3nuvI-XsX9n3h-VUg" charset="UTF-8"></script><script async src=https://www.googletagmanager.com/gtag/js?id=G-2310Z83K36></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-2310Z83K36');
+	</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disinfection Management Tool</title>
+    <!-- <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7mKrbApc4WWr-YsTs7WZOOzJEI8pfQk5dLNy-srNXBYOu9kSoA97tq6B2h58-bsYamZFCkPUEmXKnj8-IW056AwjS2dvawW4FMcZpTuwVP0fdkPzzVW3LbqCi2NCJNNlX14s-ytWO-k2yAj1C5jHjLEzmAmy2A1mO4onOJeRQgPomvx6QQiWalNBfVxCfvjj" charset="UTF-8"></script> -->
+    <script type="text/javascript" src="scripts/BRC_new_format_beta_v1.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-left">
+            <span><a href='index.html'>Home</a></span>
+        </div>
+        <div class="header-right">
+            <span><a href='help.html' >Help</a></span>
+        </div>
+        </div>
+<div class="title">
+    <img src="images/WSU Water Group.png">
+    <h2>Chloramine Stability Tool(CaST) v2022.02</h2>
+    <h3> Status Prediction</h3>
+</div>
+<div class="content">
+    <div class="wrapper">
+    <div class="table-header">Reservoir Data</div>
+        <div class="table">
+            <div class="cell-entry">Date</div>
+            <div class="cell-results"><input type="date" id="date" readonly/></div>
+            <div class="cell-entry">Average volume of reservoir (ML)</div>
+            <div class="cell-results" id="avg_vol"></div>
+            <div class="cell-entry">Retention time within reservoir (h)</div>
+            <div class="cell-results" id="ret_t"></div>
+            <div class="cell-entry">Total chlorine in inlet (mg/L)</div>
+            <div class="cell-results" id="cl_i"></div>
+            <div class="cell-entry">Total chlorine in outlet (mg/L)</div>
+            <div class="cell-results" id="cl_o"></div>
+            <div class="cell-entry">Total ammonia in outlet (mg-N/L)</div>
+            <div class="cell-results" id="nh_o"></div>
+            <div class="cell-entry">pH</div>
+            <div class="cell-results" id="pH"></div>
+            <div class="cell-entry">Temperature in inlet (deg-C)</div>
+            <div class="cell-results" id="temp_i"></div>
+            <div class="cell-entry">Temperature in outlet (deg-C)</div>
+            <div class="cell-results" id="temp_o"></div>
+            <div class="cell-entry">Nitrite in outlet (mg-N/L)</div>
+            <div class="cell-results" id="nano3_o"></div>
+            <div class="cell-entry">Alkalinity (mg/L as CaCO3)</div>
+            <div class="cell-results" id="alk"></div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="table-header">Current Reservoir Status</div>
+        <div class="table">
+            <div class="cell-entry">Nitrification at inlet</div>
+            <div class="cell-status"><span id="status_ni_i_curr"></span></div>
+            <div class="cell-entry">Nitrification within reservoir</div>
+            <div class="cell-status"><span id="status_ni_r_curr"></span></div>
+            <div class="cell-entry">Decay within reservoir</div>
+            <div class="cell-status"><span id="status_dec_curr"></span></div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="table-header">Prediction (If nothing is done)</div>
+        <div class="table">
+            <div class="cell-entry">Nitrification at inlet in 10 days</div>
+            <div class="cell-status"><span id="status_ni_i_pre"></span></div>
+            <div class="cell-entry">Nitrification within reservoir in 10 days</div>
+            <div class="cell-status"><span id="status_ni_r_pre"></span></div>
+            <div class="cell-entry">Decay within reservoir in 10 days</div>
+            <div class="cell-status"><span id="status_dec_pre"></span></div>
+            <div class="cell-entry">Time to nitrification (days)</div>
+            <div class="cell-results" id="t2n"></div>
+        </div>
+        <details onclick="changeText()">
+            <summary id="summary-text">Show detailed explaination of results</summary>
+            <p><div class="wrapper">
+                <div class="table-header-help">
+                    <h4>Decay status is accurate, if chlorine is not dosed within the reservoir</h4>
+                    <h2>Notes on current reservoir status</h2></p>
+                </div>
+                <div class="table-text">
+                    <div class="cell">
+                        <ul>
+                            <li><span style="color:Red; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - Already in a high risk of nitrification. Monitor BRC regularly.</sup></span></li>
+                            <li><span style="color:Orange; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - Take some action to increase chlorine. Monitor BRC regularly.</sup></span></li>
+                            <li><span style="color:Green; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - It is safe now. Optionally monitor BRC to know the trend.</sup></span></li>
+                        </ul>
+                    </div>
+                    <div class="cell">
+                        <ul>
+                            <li><span style="color:Red; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - The decay is > 2.5 times the decay. Increase chlorine. If nitrification status is not red, heterotrophic bacteria are controlling the decay.</sup></span></li>
+                            <li><span style="color:Orange; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - Monitor regularly.</sup></span></li>
+                            <li><span style="color:Green; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - All good. You may monitor optionally to know the trend.</sup></span></li>
+                        </ul>                    
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="text-wrapper">
+                    <p><span style="color:Orange;"><sup>The </sup></span><span style="color:Black; "><sup>causes for the additional decay are the presence of microbes that decay chloramine and/or chlorine has been overdosed.</sup></span>
+                    <span style="color:Red; font-size:30px"> </span><span style="color:Orange; "><br><sup>If</sup></span>
+                    <span style="color:Black; "><sup>it is not due to overdose, please analyse possible options using Scenario analysis.</sup>
+                    </span><span style="color:Orange; "><br><sup>Also </sup></span>
+                    <span style="color:Black; "><sup>note that nitrate may not appear immediately even if </sup></span>
+                    <span style="color:Red; font-size:30px">&#8226;</span>
+                    <span style=""><sup> sign is seen if heterotrophic bacteria are controlling.<br>If the reservoir status is </sup></span>
+                    <span style="color:Red; font-size:30px">&#8226;</span>
+                    <span style=""><sup> and if improved (e.g. by dosing chlorine), status will turn to </sup></span>
+                    <span style="color:Green; font-size:30px">&#8226;</span>
+                    <span style=""><sup>, but will take time for nitrate to come down.</sup></span></p>
+                </div>
+            </div></p>
+        </details>
+    </div>
+    <div class="wrapper">
+        <div class="table-btn">
+            <div class="cell-btn">
+                <button class="reset-btn" onClick="BRC_reset_sp()" value="Reset Calculation">Reset</button>
+            </div>
+            <div class="cell-btn">
+                <button class="submit-btn" onClick="BRC_calc_sp()" value="Evaluate">Evaluate</button></div>	        
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="table-btn">
+            <div class="cell-btn">
+                <select name="nav-select" id="nav-select">
+                <option value="optionsanalysis.html">Option Analysis</option>
+                <option value="systemanalysis.html">System Analysis</option>
+                <option value="dataentry.html">Data Entry</option>                
+            </select>
+            </div>
+            <div class="cell-btn">
+                <button class="nav-btn-next" onclick="goTo()" value="Go to">Next</button>
+            </div>	        
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
