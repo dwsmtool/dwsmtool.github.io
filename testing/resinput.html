@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- <script async src=https://www.googletagmanager.com/gtag/js?id=G-2310Z83K36></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-2310Z83K36');
+	</script> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disinfection Management Tool</title>
+    <!-- <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7mKrbApc4WWr-YsTs7WZOOzJEI8pfQk5dLNy-srNXBYOu9kSoA97tq6B2h58-bsYamZFCkPUEmXKnj8-IW056AwjS2dvawW4FMcZpTuwVP0fdkPzzVW3LbqCi2NCJNNlX14s-ytWO-k2yAj1C5jHjLEzmAmy2A1mO4onOJeRQgPomvx6QQiWalNBfVxCfvjj" charset="UTF-8"></script> -->
+    <script type="text/javascript" src="scripts/main_2.js"></script>
+    <script type="text/javascript" src="scripts/calc_2.js"></script>
+    <!-- <script src="https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyB1oXyWoFwZea4YrCdDk1xLSJo4AHd6_mM"></script> -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-left">
+            <span><a href='index.html'>Home</a></span>
+        </div>
+        <div class="header-right">
+            <span><a href='help.html' >Help</a></span>
+        </div>
+        </div>
+<div class="title">
+    <img src="images/WSU Water Group.png">
+    <h2>Chloramine Stability Tool(CaST) v2022.02</h2>
+    <h3>Reservoir Data Entry</h3>
+</div>
+<div class="content">
+    <div class="wrapper">
+        <div class="table-card-active" id="1">
+            <h1>Step 1</h1>
+            <h4>Enter details regarding the maximum temperature of the reservoir</h4>
+            <h3>Month</h3>
+            <div class="card-input"><input type="date" id="max_month"/></div>
+            <h3>Value</h3>
+            <div class="card-input"><input type="number" id="t_max"/></div>
+        </div>
+        <div class="table-card" id="2">
+            <h1>Step 2</h1>
+            <h4>Enter details regarding the minimum temperature of the reservoir</h4>
+            <h3>Month</h3>
+            <div class="card-input"><input type="date" id="min_month"/></div>
+            <h3>Value</h3>
+            <div class="card-input"><input type="number" id="t_min"/></div>
+        </div>
+        <div class="table-card" id="3">
+            <h1>Step 3</h1><br>
+            <h3>Enter total number of reservoirs</h3>
+            <div class="card-input"><input type="number" id="num_res"/></div>
+        </div>
+        <div class="table-card-nav">
+            <div class="table-card-nav-prev">
+                <a class="button" id="" href="#" onclick="goToPrevStep()" disabled>Previous step</a>
+            </div>
+            <div class="table-card-nav-next">
+                <a class="button" id="" href="#" onclick="goToStep()">Next step</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

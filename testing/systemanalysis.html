@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- <script async src=https://www.googletagmanager.com/gtag/js?id=G-2310Z83K36></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-2310Z83K36');
+	</script> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disinfection Management Tool</title>
+    <!-- <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7mKrbApc4WWr-YsTs7WZOOzJEI8pfQk5dLNy-srNXBYOu9kSoA97tq6B2h58-bsYamZFCkPUEmXKnj8-IW056AwjS2dvawW4FMcZpTuwVP0fdkPzzVW3LbqCi2NCJNNlX14s-ytWO-k2yAj1C5jHjLEzmAmy2A1mO4onOJeRQgPomvx6QQiWalNBfVxCfvjj" charset="UTF-8"></script> -->
+    <script type="text/javascript" src="scripts/main_2.js"></script>
+    <script type="text/javascript" src="scripts/calc_2.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-left">
+            <span><a href='index.html'>Home</a></span>
+        </div>
+        <div class="header-right">
+            <span><a href='help.html' >Help</a></span>
+        </div>
+        </div>
+    <div class="title">
+        <img src="images/WSU Water Group.png">
+        <h2>Chloramine Stability Tool(CaST) v2022.02</h2>
+        <h3>System Chemical Chloramine Decay Analysis</h3>
+    </div>
+    <div class="content">
+        <div class="wrapper">
+            <div class="table-header">Enter data in the cells with
+            <span style="color: #cc0000;"> red numbers</span>
+            </div>
+            <div class="table">
+                <div class="cell-entry">Total chlorine (mg/L)</div>
+                <div class="cell-input"><input type="number" id="cl_t"/></div>
+                <div class="cell-entry">Total ammonia (mg-N/L)</div>
+                <div class="cell-input"><input type="number" id="nh_t"/></div>
+                <div class="cell-entry">Was Chlorine used as primary disinfectant?</div>
+                <div class="cell-input"><select class="cl_disinf" id="cl_disinf">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                </div>
+                <div class="cell-entry">Temperature (Celsius) </div>
+                <div class="cell-input"><input type="number" id="des_temp" /></div>
+                <div class="cell-entry">Alkalinity (mg/L as CaCO3)</div>
+                <div class="cell-input"><input type="number" id="alk" /></div>
+                <div class="cell-entry">pH</div>
+                <div class="cell-input"><input type="number" id="ph" /></div>
+                <div class="cell-entry">Chloramine decay rate (/h)</div>
+                <div class="cell-results" id="y_c_dec_25"></div>
+                <div class="cell-entry">Initital chloramine drop (mg/L) </div>
+                <div class="cell-results" id="y_c_dec_20"></div>
+                <div class="cell-entry">Prediction valid for Cl/N ratio (<4.6)</div>
+                <div class="cell-results" id="y_cln"></div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="table-btn">
+                <div class="cell-btn"><button class="reset-btn" onclick="BRC_reset_sa()" value="Reset Calculation">Reset</button>
+                </div>
+                <div class="cell-btn"><button class="submit-btn" onClick="validateInputsSystem()" value="Evaluate">Evaluate</button></div>	        
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="table-btn">
+                <div class="cell-btn">
+                    <select name="nav-select" id="nav-select">
+                    <option value="dataentry.html">Data Entry</option>
+                    <option value="statusprediction.html">Status Prediction</option>
+                    <option value="optionsanalysis.html">Option Analysis</option>
+                    </select>
+                </div>
+                <div class="cell-btn">
+                    <button class="nav-btn-next" onclick="goTo()" value="Go to">Next</button>
+                </div>        
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+</html>

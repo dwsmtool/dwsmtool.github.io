@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disinfection Management Tool</title>
+    <!-- <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7mKrbApc4WWr-YsTs7WZOOzJEI8pfQk5dLNy-srNXBYOu9kSoA97tq6B2h58-bsYamZFCkPUEmXKnj8-IW056AwjS2dvawW4FMcZpTuwVP0fdkPzzVW3LbqCi2NCJNNlX14s-ytWO-k2yAj1C5jHjLEzmAmy2A1mO4onOJeRQgPomvx6QQiWalNBfVxCfvjj" charset="UTF-8"></script> -->
+    <script type="text/javascript" src="scripts/main_2.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <button class="nav-btn-prev" onclick="history.back()">Back</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="wrapper">
+            <div class="table-header-help">
+                <h4>Decay status is accurate, if chlorine is not dosed within the reservoir</h4>
+                <h2>Notes on current reservoir status</h2></p>
+            </div>
+            <div class="table-text">
+                <div class="cell">
+                    <ul>
+                        <li><span style="color:Red; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - Already in a high risk of nitrification. Monitor BRC regularly.</sup></span></li>
+                        <li><span style="color:Orange; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - Take some action to increase chlorine. Monitor BRC regularly.</sup></span></li>
+                        <li><span style="color:Green; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - It is safe now. Optionally monitor BRC to know the trend.</sup></span></li>
+                    </ul>
+                </div>
+                <div class="cell">
+                    <ul>
+                        <li><span style="color:Red; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - The decay is > 2.5 times the decay. Increase chlorine. If nitrification status is not red, heterotrophic bacteria are controlling the decay.</sup></span></li>
+                        <li><span style="color:Orange; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - Monitor regularly.</sup></span></li>
+                        <li><span style="color:Green; font-size:36px">&#8226;</span><span style="font-size:20px"><sup> - All good. You may monitor optionally to know the trend.</sup></span></li>
+                    </ul>                    
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="text-wrapper">
+                <p><span style="color:Orange;"><sup>The </sup></span><span style="color:Black; "><sup>causes for the additional decay are the presence of microbes that decay chloramine and/or chlorine has been overdosed.</sup></span>
+                <span style="color:Red; font-size:30px"> </span><span style="color:Orange; "><br><sup>If</sup></span>
+                <span style="color:Black; "><sup>it is not due to overdose, please analyse possible options using Scenario analysis.</sup>
+                </span><span style="color:Orange; "><br><sup>Also </sup></span>
+                <span style="color:Black; "><sup>note that nitrate may not appear immediately even if </sup></span>
+                <span style="color:Red; font-size:30px">&#8226;</span>
+                <span style=""><sup> sign is seen if heterotrophic bacteria are controlling.<br>If the reservoir status is </sup></span>
+                <span style="color:Red; font-size:30px">&#8226;</span>
+                <span style=""><sup> and if improved (e.g. by dosing chlorine), status will turn to </sup></span>
+                <span style="color:Green; font-size:30px">&#8226;</span>
+                <span style=""><sup>, but will take time for nitrate to come down.</sup></span></p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="table-header-help">
+                <h2>Notes on Option Analysis</h2></p>
+            </div>
+            <div class="text-wrapper">
+                <p><h4><span style="color:Orange;"><sup>All improvement options assume inlet nitrite concentration is &#60 0.005 mg/L </sup></span></h4></p>
+                    <p><span style="color:Orange; "><sup>If</sup></span>
+                    <span style="color:Black; "><sup>nitrification and decay statuses are</sup></span>
+                    <span style="color:Red; font-size:30px">&#8226;</span>
+                    <span style="color:Black; "><sup>and temperature is >18 degrees C and increasing, monitor BRC (optionally nitrite) regularly or try and bring the status to yellow or green by intervention.</sup></span>
+                    </span><span style="color:Orange; "><br><sup>In all cases, </sup></span>
+                    <span style="color:Black; "><sup>chloramine should be consistently above BRC (i.e.</sup></span>
+                    <span style="color:Green; font-size:30px">&#8226;</span>
+                    <span style="color:Black; "><sup>).<br></sup></span>
+                    <span style="color:Orange; "><sup>If</sup></span>
+                    <span style="color:Black; "><sup>nitrite is &#60 0.01 mg-N/L in the reservoir, multiple rechlorination may improve chlorine, but dosing of smaller doses should be avoided as this can negatively influence the chloramine stability.<br></sup></span>
+                    <span style="color:Orange; "><sup><br>If</sup></span>
+                    <span style="color:Black; "><sup> nitrite is &#60 0.04 mg-N/L in the reservoir, multiple rechloramination may improve chlorine.<br></sup></span>
+                    <span style="color:Orange; "><sup><br>For any nitrite level,</sup></span>
+                    <span style="color:Black; "><sup> multiple (daily) partial breakpoint chlorination may improve chlorine.<br></sup></span>
+                    <span style="color:Orange; "><sup>If</sup></span>
+                    <span style="color:Black; "><sup> nitrification and decay statuses are</sup></span>
+                    <span style="color:Red; font-size:30px">&#8226;</span>
+                    <span style="color:Black; "><sup> but temperature is &#60 18 degrees C and cooling, rechlorination may be sufficient.</sup></span>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
