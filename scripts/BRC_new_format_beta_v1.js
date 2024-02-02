@@ -123,7 +123,7 @@ function validateInputs() {
 		errorMessage(3,1);
 	}
 	// Total chlorine out
-	if(cl_o < 0.05 || cl_o > 5) {
+	if(cl_o < 0.5 || cl_o > 5) {
 		flag = 1;
 		errorMessage(4,1);
 	}
