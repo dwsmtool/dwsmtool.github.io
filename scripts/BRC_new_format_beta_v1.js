@@ -1,1 +1,931 @@
-var _0xe6fbe9=_0x316d;(function(_0x4a7257,_0x52d013){var _0x476703=_0x316d,_0x452a75=_0x4a7257();while(!![]){try{var _0x4e8987=parseInt(_0x476703(0x149))/0x1+-parseInt(_0x476703(0xe5))/0x2*(-parseInt(_0x476703(0x138))/0x3)+parseInt(_0x476703(0x11f))/0x4*(-parseInt(_0x476703(0x123))/0x5)+parseInt(_0x476703(0xef))/0x6+-parseInt(_0x476703(0x153))/0x7*(-parseInt(_0x476703(0x144))/0x8)+parseInt(_0x476703(0xee))/0x9+-parseInt(_0x476703(0x129))/0xa;if(_0x4e8987===_0x52d013)break;else _0x452a75['push'](_0x452a75['shift']());}catch(_0x4c6179){_0x452a75['push'](_0x452a75['shift']());}}}(_0x61e0,0xe6537),window[_0xe6fbe9(0x103)](_0xe6fbe9(0xfc),loadItems));function loadItems(_0x3d6669){var _0x2503f8=_0xe6fbe9,_0x15a8ab=window[_0x2503f8(0xf7)][_0x2503f8(0x13c)],_0x5264a3=_0x15a8ab[_0x2503f8(0x13f)]('/')[_0x2503f8(0x110)]();if(_0x5264a3==_0x2503f8(0x145))return;else{if(_0x5264a3==_0x2503f8(0x131))var _0x35856b='sa_key';else var _0x35856b=_0x2503f8(0x115);}var _0x48eb6f=window[_0x2503f8(0x12d)]['getItem'](_0x35856b);if(_0x48eb6f!=null){var _0x3dd084=JSON[_0x2503f8(0xe3)](_0x48eb6f);for(var _0x434fce in _0x3dd084){document[_0x2503f8(0xfb)](_0x434fce)[_0x2503f8(0x133)][_0x2503f8(0x104)]()==='input'?document['getElementById'](_0x434fce)[_0x2503f8(0x10c)]=_0x3dd084[_0x434fce]:document['getElementById'](_0x434fce)[_0x2503f8(0x12e)]=_0x3dd084[_0x434fce];}}else{if(_0x35856b=='sp_key')var _0x48eb6f='{\x22avg_vol\x22:\x2270\x22,\x22ret_t\x22:\x2265\x22,\x22cl_i\x22:1.5,\x22cl_o\x22:\x221.1\x22,\x22nh_o\x22:0.35,\x22pH\x22:\x227.6\x22,\x22temp_i\x22:\x2221\x22,\x22temp_o\x22:20,\x22nano3_o\x22:\x220.009\x22,\x22alk\x22:\x2260\x22}';else{if(_0x35856b==_0x2503f8(0xf8))var _0x48eb6f=_0x2503f8(0xdf);else{if(_0x35856b==_0x2503f8(0x11b))var _0x48eb6f=_0x2503f8(0x122);}}var _0x3dd084=JSON[_0x2503f8(0xe3)](_0x48eb6f);for(var _0x434fce in _0x3dd084){document['getElementById'](_0x434fce)[_0x2503f8(0x133)][_0x2503f8(0x104)]()===_0x2503f8(0x14f)?document['getElementById'](_0x434fce)[_0x2503f8(0x10c)]=_0x3dd084[_0x434fce]:document[_0x2503f8(0xfb)](_0x434fce)[_0x2503f8(0x12e)]=_0x3dd084[_0x434fce];}}}function goTo(){var _0x48ef0b=_0xe6fbe9,_0x5a9bce=document[_0x48ef0b(0xfb)](_0x48ef0b(0x100))['value'];window[_0x48ef0b(0xf0)](_0x5a9bce,_0x48ef0b(0x13a));}function validateInputs(){var _0x4f873c=_0xe6fbe9,_0x11cdb5=document[_0x4f873c(0x151)](_0x4f873c(0x11e));for(i=0x0;i<_0x11cdb5[_0x4f873c(0x152)];i++){_0x11cdb5[i]!=null&&(_0x11cdb5[i]['innerHTML']='');}var _0x534e4a=document[_0x4f873c(0x151)](_0x4f873c(0x11a));for(i=0x0;i<_0x534e4a[_0x4f873c(0x152)];i++){_0x534e4a[i][_0x4f873c(0x10f)][0x0][_0x4f873c(0x127)]['background']='white';}var _0x503360=document[_0x4f873c(0xfb)](_0x4f873c(0x109))['value'],_0x5c044a=document[_0x4f873c(0xfb)](_0x4f873c(0x124))['value'],_0x317c22=document[_0x4f873c(0xfb)](_0x4f873c(0x140))[_0x4f873c(0x10c)],_0x3225bd=document[_0x4f873c(0xfb)](_0x4f873c(0x119))[_0x4f873c(0x10c)],_0x5a3fc6=document[_0x4f873c(0xfb)](_0x4f873c(0x155))[_0x4f873c(0x10c)],_0x448e0e=document[_0x4f873c(0xfb)](_0x4f873c(0x120))[_0x4f873c(0x10c)],_0x47b9f8=document[_0x4f873c(0xfb)]('pH')['value'],_0x37532f=document[_0x4f873c(0xfb)](_0x4f873c(0x146))[_0x4f873c(0x10c)],_0x3192fa=document[_0x4f873c(0xfb)](_0x4f873c(0xe8))['value'],_0x4f83e7=document['getElementById'](_0x4f873c(0xf2))[_0x4f873c(0x10c)],_0x3f310b=document[_0x4f873c(0xfb)]('alk')[_0x4f873c(0x10c)],_0x341e53=0x0;!_0x503360&&(_0x341e53=0x1,errorMessage(0x0,0x1));(_0x5c044a<0.1||_0x5c044a>0x96)&&(_0x341e53=0x1,errorMessage(0x1,0x1));(_0x317c22<0x1||_0x317c22>0x96)&&(_0x341e53=0x1,errorMessage(0x2,0x1));(_0x3225bd<0.5||_0x3225bd>0x5)&&(_0x341e53=0x1,errorMessage(0x3,0x1));(_0x5a3fc6<0.05||_0x5a3fc6>0x5)&&(_0x341e53=0x1,errorMessage(0x4,0x1));(_0x448e0e<0.05||_0x448e0e>1.5)&&(_0x341e53=0x1,errorMessage(0x5,0x1));(_0x47b9f8<0x0||_0x47b9f8>0xa)&&(_0x341e53=0x1,errorMessage(0x6,0x1));(_0x37532f<0xa||_0x37532f>0x20)&&(_0x341e53=0x1,errorMessage(0x7,0x1));(_0x3192fa<0xa||_0x3192fa>0x20)&&(_0x341e53=0x1,errorMessage(0x8,0x1));(_0x4f83e7<0x0||_0x4f83e7>0x1)&&(_0x341e53=0x1,errorMessage(0x9,0x1));(_0x3f310b<0x0||_0x3f310b>0xc8)&&(_0x341e53=0x1,errorMessage(0xa,0x1));var _0x2922dc=_0x5a3fc6/_0x448e0e;_0x2922dc>4.6&&(_0x341e53=0x2,errorMessage(0xb,0x2)),_0x341e53==0x0&&BRC_save_data();}function errorMessage(_0x55a400,_0x3937c1){var _0x4cb121=_0xe6fbe9;displayText={0x1:_0x4cb121(0x14b),0x2:_0x4cb121(0x114)},document[_0x4cb121(0x151)](_0x4cb121(0x11a))[_0x55a400]['childNodes'][0x0]['style']['background']='#ffb3b3';const _0x11b1b1=document[_0x4cb121(0x11c)](_0x4cb121(0x121));_0x11b1b1[_0x4cb121(0xf4)]=_0x4cb121(0x11e);const _0x406c0a=document['createTextNode'](displayText[_0x3937c1]);_0x11b1b1[_0x4cb121(0xdc)](_0x406c0a),_0x11b1b1['style'][_0x4cb121(0x112)]='center',_0x11b1b1[_0x4cb121(0x127)][_0x4cb121(0x13b)]='red';const _0xc140d=document[_0x4cb121(0x151)](_0x4cb121(0x113));document['body'][_0x4cb121(0xf3)](_0x11b1b1,_0xc140d[0x0]);return;}function BRC_save_data(){var _0x17cb79=_0xe6fbe9,_0x256796=document[_0x17cb79(0xfb)](_0x17cb79(0x109))['value'],_0x10c96a=document[_0x17cb79(0xfb)](_0x17cb79(0x124))['value'],_0x51249=document[_0x17cb79(0xfb)](_0x17cb79(0x140))['value'],_0x431976=document[_0x17cb79(0xfb)]('cl_i')[_0x17cb79(0x10c)],_0x3ae450=document[_0x17cb79(0xfb)](_0x17cb79(0x155))[_0x17cb79(0x10c)],_0x1aa82b=document[_0x17cb79(0xfb)](_0x17cb79(0x120))[_0x17cb79(0x10c)],_0x376abe=document[_0x17cb79(0xfb)]('pH')[_0x17cb79(0x10c)],_0x44c8d4=document[_0x17cb79(0xfb)](_0x17cb79(0x146))[_0x17cb79(0x10c)],_0x2b4a88=document['getElementById'](_0x17cb79(0xe8))[_0x17cb79(0x10c)],_0x3dca6b=document[_0x17cb79(0xfb)]('nano3_o')[_0x17cb79(0x10c)],_0x4e679f=document['getElementById'](_0x17cb79(0x117))[_0x17cb79(0x10c)],_0x16d2f1=_0x17cb79(0x115);const _0x3beea8={'date':_0x256796,'avg_vol':_0x10c96a,'ret_t':_0x51249,'cl_i':_0x431976,'cl_o':_0x3ae450,'nh_o':_0x1aa82b,'pH':_0x376abe,'temp_i':_0x44c8d4,'temp_o':_0x2b4a88,'nano3_o':_0x3dca6b,'alk':_0x4e679f};window[_0x17cb79(0x12d)][_0x17cb79(0x147)](_0x16d2f1,JSON[_0x17cb79(0xe9)](_0x3beea8));}function BRC_calc_sp_old(){var _0x56cfc6=_0xe6fbe9,_0xee9b09='data_key',_0x74d939=JSON[_0x56cfc6(0xe3)](window[_0x56cfc6(0x12d)][_0x56cfc6(0x12b)](_0xee9b09)),_0x409780=_0x74d939['avg_vol'],_0x4ccdfc=_0x74d939[_0x56cfc6(0x140)],_0xa93e7=_0x74d939[_0x56cfc6(0x119)],_0x5ee7f5=_0x74d939[_0x56cfc6(0x155)],_0x501f46=_0x74d939[_0x56cfc6(0x120)],_0x46c714=_0x74d939['pH'],_0x46d9cf=_0x74d939[_0x56cfc6(0x146)],_0x2cc380=_0x74d939['temp_o'],_0x46dd1f=_0x74d939[_0x56cfc6(0xf2)],_0x57c7f8=_0x74d939[_0x56cfc6(0x117)],_0x327bd5,_0x16bacf,_0x4703dd,_0x38d487,_0x65507f,_0x1b78ea,_0x1fefdc,_0x58f761,_0x179238,_0x4d1df3,_0x1564f6,_0x44876e,_0x23c16f,_0x31f133,_0x50ded8,_0x389ccc,_0x80e5e2,_0xaaae4,_0x40fd52,_0x2dbdc5,_0xf849ee=new Date(),_0x416192=parseFloat(_0xf849ee[_0x56cfc6(0xfa)]())+parseFloat(0x1),_0x1a10ef,_0x3e7c99,_0xdb378b,_0xbce653,_0x598bac,_0x31baca,_0x7337a2,_0x342011;if(_0x416192>0x8)_0x327bd5=0x1;else{if(_0x416192>0x2)_0x327bd5=-0.5;else _0x327bd5=0x1;}if(_0x327bd5==0x1)_0x16bacf=0.95;else _0x16bacf=1.05;_0x2cc380=parseFloat(_0x2cc380),_0x501f46=parseFloat(_0x501f46),_0xa93e7=parseFloat(_0xa93e7),_0x65507f=parseFloat(_0x501f46)+parseFloat((_0xa93e7-_0x5ee7f5)*0.072),_0x1b78ea=_0xa93e7-(0.00000774*Math[_0x56cfc6(0x118)](_0x46d9cf,0x5)-parseFloat(0.0008*Math['pow'](_0x46d9cf,0x4))+parseFloat(0.0309*Math[_0x56cfc6(0x118)](_0x46d9cf,0x3))-parseFloat(0.5579*Math['pow'](_0x46d9cf,0x2))+parseFloat(4.8468*_0x46d9cf)-15.425)/1.16*(_0x65507f-_0xa93e7/0x47*0xe)/(parseFloat(0.18)+parseFloat(_0x65507f)-_0xa93e7/0x47*0xe);if(_0x1b78ea>=0.41)_0x1fefdc='GREEN';else{if(_0x1b78ea>=0.21)_0x1fefdc='ORANGE';else _0x1fefdc=_0x56cfc6(0x10a);}_0x58f761=_0x5ee7f5-(0.00000774*Math[_0x56cfc6(0x118)](_0x2cc380,0x5)-parseFloat(0.0008*Math[_0x56cfc6(0x118)](_0x2cc380,0x4))+parseFloat(0.0309*Math['pow'](_0x2cc380,0x3))-parseFloat(0.5579*Math[_0x56cfc6(0x118)](_0x2cc380,0x2))+parseFloat(4.8468*_0x2cc380)-15.425)/1.16*(_0x501f46-_0x5ee7f5/5.07)/(parseFloat(0.18)+parseFloat(_0x501f46)-_0x5ee7f5/5.07);if(_0x58f761>=0.41)_0x179238=_0x56cfc6(0x143);else{if(_0x58f761>=0.21)_0x179238=_0x56cfc6(0xdd);else _0x179238=_0x56cfc6(0x10a);}_0x4d1df3=(parseFloat(Math[_0x56cfc6(0x118)](0xa,-3.113))+Math[_0x56cfc6(0x118)](0xa,5.1-parseFloat(_0x46c714)))*(81.98/(5.46-parseFloat(_0x5ee7f5/_0x501f46)))*(parseFloat(0.003)+parseFloat(0.0002*_0x5ee7f5))*(parseFloat(3.9)+parseFloat(0.0029*_0x57c7f8))*Math[_0x56cfc6(0x128)](-0xde8*(0x1/0x125-0x1/0x12a)),_0x1564f6=2.5-(_0xa93e7/_0x5ee7f5-0x1)/_0x4ccdfc/(_0x4d1df3*Math[_0x56cfc6(0x118)](1.04,_0x2cc380-0x14));if(_0x1564f6>=0.41)_0x44876e='GREEN';else{if(_0x1564f6>=0.21)_0x44876e=_0x56cfc6(0xdd);else _0x44876e=_0x56cfc6(0x10a);}_0x1a10ef=parseFloat(_0x2cc380)+parseFloat(_0x327bd5),_0x23c16f=_0xa93e7*_0x16bacf-(0.00000774*Math[_0x56cfc6(0x118)](_0x1a10ef,0x5)-parseFloat(0.0008*Math[_0x56cfc6(0x118)](_0x1a10ef,0x4))+parseFloat(0.0309*Math[_0x56cfc6(0x118)](_0x1a10ef,0x3))-parseFloat(0.5579*Math[_0x56cfc6(0x118)](_0x1a10ef,0x2))+parseFloat(4.8468*_0x1a10ef)-15.425)/1.16*(parseFloat(_0x501f46)+parseFloat(0.13*(_0xa93e7*_0x16bacf-_0x5ee7f5))-_0xa93e7*_0x16bacf/0x5)/(parseFloat(parseFloat(_0x501f46)+parseFloat(0.13*(_0xa93e7*_0x16bacf-_0x5ee7f5))-_0xa93e7*_0x16bacf/0x5)+parseFloat(0.18));if(_0x23c16f>=0.41)_0x31f133='GREEN';else{if(_0x23c16f>=0.21)_0x31f133=_0x56cfc6(0xdd);else _0x31f133='RED';}_0x50ded8=(_0xa93e7/_0x5ee7f5-0x1)/_0x4ccdfc,_0x3e7c99=parseFloat(0x111)+parseFloat(_0x2cc380),_0xdb378b=parseFloat(0x111)+parseFloat(_0x2cc380)+parseFloat(_0x327bd5),_0x389ccc=_0xa93e7*_0x16bacf/(parseFloat(0x1)+parseFloat(_0x4ccdfc*(_0x50ded8*Math['exp'](0x1a5e*(0x1/_0x3e7c99-0x1/_0xdb378b))*1.05)))-(0.00000774*Math['pow'](_0x1a10ef,0x5)-parseFloat(0.0008*Math['pow'](_0x1a10ef,0x4))+parseFloat(0.0309*Math[_0x56cfc6(0x118)](_0x1a10ef,0x3))-0.5579*Math[_0x56cfc6(0x118)](_0x1a10ef,0x2)+parseFloat(4.8468*_0x1a10ef)-15.425)/1.16*(_0x501f46-(_0x5ee7f5-_0xa93e7*_0x16bacf/(parseFloat(0x1)+parseFloat(_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/_0x3e7c99-0x1/_0xdb378b))*1.05))))*0.13-_0xa93e7*_0x16bacf/(parseFloat(0x1)+parseFloat(_0x4ccdfc*(_0x50ded8*Math['exp'](0x1a5e*(0x1/_0x3e7c99-0x1/_0xdb378b))*1.05)))/0x5)/(_0x501f46-(_0x5ee7f5-_0xa93e7*_0x16bacf/(parseFloat(0x1)+parseFloat(_0x4ccdfc*(_0x50ded8*Math['exp'](0x1a5e*(0x1/_0x3e7c99-0x1/_0xdb378b))*1.05))))*0.13-_0xa93e7*_0x16bacf/(parseFloat(0x1)+parseFloat(_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/_0x3e7c99-0x1/_0xdb378b))*1.05)))/0x5+parseFloat(0.18));if(_0x389ccc>=0.41)_0x80e5e2='GREEN';else{if(_0x389ccc>=0.21)_0x80e5e2=_0x56cfc6(0xdd);else _0x80e5e2=_0x56cfc6(0x10a);}_0xaaae4=2.5-(_0xa93e7-_0x5ee7f5)/_0x5ee7f5/_0x4ccdfc/_0x4d1df3*Math['pow'](1.04,parseFloat(_0x2cc380-0x14)+parseFloat(_0x327bd5));if(_0xaaae4>=0.41)_0x40fd52=_0x56cfc6(0x143);else{if(_0xaaae4>=0.21)_0x40fd52=_0x56cfc6(0xdd);else _0x40fd52=_0x56cfc6(0x10a);}var _0x51b45a=[0x0,0x5,0xa,0xf,0x14,0x19,0x1e];_0xbce653=_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x2]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math['exp'](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x2]/0xa*_0x327bd5)))*Math['pow'](1.05,_0x51b45a[0x2]/0xa)))-(0.00000774*Math[_0x56cfc6(0x118)](_0x2cc380+_0x51b45a[0x2]/0xa*_0x327bd5,0x5)-0.0008*Math[_0x56cfc6(0x118)](_0x2cc380+_0x51b45a[0x2]/0xa*_0x327bd5,0x4)+0.0309*Math[_0x56cfc6(0x118)](_0x2cc380+_0x51b45a[0x2]/0xa*_0x327bd5,0x3)-0.5579*Math['pow'](_0x2cc380+_0x51b45a[0x2]/0xa*_0x327bd5,0x2)+4.8468*(_0x2cc380+_0x51b45a[0x2]/0xa*_0x327bd5)-15.425)/1.16*(_0x501f46-(_0x5ee7f5-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x2]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x2]/0xa*_0x16bacf)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x2]/0xa))))*0.13-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x2]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x2]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x2]/0xa)))/0x5)/(_0x501f46-(_0x5ee7f5-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x2]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math['exp'](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x2]/0xa*_0x327bd5)))*Math['pow'](1.05,_0x51b45a[0x2]/0xa))))*0.13-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x2]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x2]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x2]/0xa)))/0x5+0.18),_0x598bac=_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x3]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x3]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x3]/0xa)))-(0.00000774*Math[_0x56cfc6(0x118)](_0x2cc380+_0x51b45a[0x3]/0xa*_0x327bd5,0x5)-0.0008*Math[_0x56cfc6(0x118)](_0x2cc380+_0x51b45a[0x3]/0xa*_0x327bd5,0x4)+0.0309*Math[_0x56cfc6(0x118)](_0x2cc380+_0x51b45a[0x3]/0xa*_0x327bd5,0x3)-0.5579*Math[_0x56cfc6(0x118)](_0x2cc380+_0x51b45a[0x3]/0xa*_0x327bd5,0x2)+4.8468*(_0x2cc380+_0x51b45a[0x3]/0xa*_0x327bd5)-15.425)/1.16*(_0x501f46-(_0x5ee7f5-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x3]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x3]/0xa*_0x16bacf)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x3]/0xa))))*0.13-_0xa93e7*Math['pow'](_0x16bacf,_0x51b45a[0x3]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math['exp'](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x3]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x3]/0xa)))/0x5)/(_0x501f46-(_0x5ee7f5-_0xa93e7*Math['pow'](_0x16bacf,_0x51b45a[0x3]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x3]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x3]/0xa))))*0.13-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x3]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x3]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x3]/0xa)))/0x5+0.18),_0x31baca=_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x4]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math['exp'](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x4]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x4]/0xa)))-(0.00000774*Math['pow'](_0x2cc380+_0x51b45a[0x4]/0xa*_0x327bd5,0x5)-0.0008*Math['pow'](_0x2cc380+_0x51b45a[0x4]/0xa*_0x327bd5,0x4)+0.0309*Math['pow'](_0x2cc380+_0x51b45a[0x4]/0xa*_0x327bd5,0x3)-0.5579*Math[_0x56cfc6(0x118)](_0x2cc380+_0x51b45a[0x4]/0xa*_0x327bd5,0x2)+4.8468*(_0x2cc380+_0x51b45a[0x4]/0xa*_0x327bd5)-15.425)/1.16*(_0x501f46-(_0x5ee7f5-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x4]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x4]/0xa*_0x16bacf)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x4]/0xa))))*0.13-_0xa93e7*Math['pow'](_0x16bacf,_0x51b45a[0x4]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x4]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x4]/0xa)))/0x5)/(_0x501f46-(_0x5ee7f5-_0xa93e7*Math['pow'](_0x16bacf,_0x51b45a[0x4]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x4]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x4]/0xa))))*0.13-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x4]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math['exp'](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x4]/0xa*_0x327bd5)))*Math['pow'](1.05,_0x51b45a[0x4]/0xa)))/0x5+0.18),_0x7337a2=_0xa93e7*Math['pow'](_0x16bacf,_0x51b45a[0x5]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x5]/0xa*_0x327bd5)))*Math['pow'](1.05,_0x51b45a[0x5]/0xa)))-(0.00000774*Math[_0x56cfc6(0x118)](_0x2cc380+_0x51b45a[0x5]/0xa*_0x327bd5,0x5)-0.0008*Math['pow'](_0x2cc380+_0x51b45a[0x5]/0xa*_0x327bd5,0x4)+0.0309*Math['pow'](_0x2cc380+_0x51b45a[0x5]/0xa*_0x327bd5,0x3)-0.5579*Math[_0x56cfc6(0x118)](_0x2cc380+_0x51b45a[0x5]/0xa*_0x327bd5,0x2)+4.8468*(_0x2cc380+_0x51b45a[0x5]/0xa*_0x327bd5)-15.425)/1.16*(_0x501f46-(_0x5ee7f5-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x5]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x5]/0xa*_0x16bacf)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x5]/0xa))))*0.13-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x5]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math['exp'](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x5]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x5]/0xa)))/0x5)/(_0x501f46-(_0x5ee7f5-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x5]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math['exp'](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x5]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x5]/0xa))))*0.13-_0xa93e7*Math[_0x56cfc6(0x118)](_0x16bacf,_0x51b45a[0x5]/0xa)/(0x1+_0x4ccdfc*(_0x50ded8*Math[_0x56cfc6(0x128)](0x1a5e*(0x1/(0x111+_0x2cc380)-0x1/(0x111+_0x2cc380+_0x51b45a[0x5]/0xa*_0x327bd5)))*Math[_0x56cfc6(0x118)](1.05,_0x51b45a[0x5]/0xa)))/0x5+0.18);if(_0xbce653<0.05)_0x342011=0x1;else{if(_0x598bac<0.05)_0x342011=0x1;else{if(_0x31baca<0.05)_0x342011=0x1,_0x2dbdc5=0x5;else _0x7337a2<0.05?(_0x342011=0x1,_0x2dbdc5=0xa):(_0x342011=0x0,_0x2dbdc5=0xf);}}var _0x164696=[_0x1fefdc,_0x179238,_0x44876e,_0x31f133,_0x80e5e2,_0x40fd52],_0x595005=[document[_0x56cfc6(0xfb)](_0x56cfc6(0x107)),document[_0x56cfc6(0xfb)]('status_ni_r_curr'),document[_0x56cfc6(0xfb)]('status_dec_curr'),document[_0x56cfc6(0xfb)](_0x56cfc6(0xde)),document['getElementById'](_0x56cfc6(0xe7)),document[_0x56cfc6(0xfb)](_0x56cfc6(0x13e))];for(var _0x19dc6a=0x0;_0x19dc6a<0x6;_0x19dc6a++){setStatus(_0x595005[_0x19dc6a],_0x164696[_0x19dc6a]);}document[_0x56cfc6(0xfb)]('t2n')['innerHTML']=_0x2dbdc5;}function BRC_calc_sp(){var _0x271f87=_0xe6fbe9,_0x5db52f=_0x271f87(0x115),_0xba8df8=JSON['parse'](window['localStorage']['getItem'](_0x5db52f)),_0x4c0d91=_0xba8df8[_0x271f87(0x109)],_0x4e5fb8=_0xba8df8[_0x271f87(0x124)],_0x5653d1=_0xba8df8[_0x271f87(0x140)],_0x50df46=_0xba8df8[_0x271f87(0x119)],_0x29a8dc=_0xba8df8[_0x271f87(0x155)],_0x1763b8=_0xba8df8[_0x271f87(0x120)],_0x30efdb=_0xba8df8['pH'],_0x444380=_0xba8df8[_0x271f87(0x146)],_0x804d43=_0xba8df8[_0x271f87(0xe8)],_0x6fff1d=_0xba8df8[_0x271f87(0xf2)],_0x1462c4=_0xba8df8[_0x271f87(0x117)],_0x2863af,_0x1f59e4,_0x222136,_0x1ed778,_0xd7fa64,_0x9d44df,_0xfce5a8,_0x5e03a5,_0x2e003a,_0x14151f,_0x5a4f92,_0x19d3b5,_0x4f62c3,_0x1c1026,_0x4bf6df,_0x41f2e9,_0x200387,_0x390487,_0x4fdf6f,_0x4eed9f,_0x5dd530,_0x4afa1c,_0x5a5937,_0x2ddc95,_0x1b92c9,_0x24a298,_0x37fa27,_0x533e66,_0x9e325d,_0x2ebf22,_0x33c582,_0x59f000=new Date(_0x4c0d91),_0x5baec7=parseFloat(_0x59f000['getMonth']())+parseFloat(0x1),_0x3eb449=0x1,_0x23e4d3=0x1,_0x10480d=0.95,_0x31900c=_0x271f87(0x14c);_0x5baec7>0x3&&_0x5baec7<0x8&&(_0x23e4d3=-0.5,_0x10480d=1.05,_0x31900c=_0x271f87(0xf6));_0x804d43=parseFloat(_0x804d43),_0x444380=parseFloat(_0x444380),_0x1763b8=parseFloat(_0x1763b8),_0x50df46=parseFloat(_0x50df46),nh_i=parseFloat(_0x1763b8)+parseFloat((_0x50df46-_0x29a8dc)*0.07),_0x2863af=(_0x50df46/_0x29a8dc-0x1)/_0x5653d1,_0x1f59e4=(Math[_0x271f87(0x118)](0xa,-3.113)+Math['pow'](0xa,5.1-_0x30efdb))*(81.98/(5.46-_0x29a8dc/_0x1763b8))*(0.003+0.0002*_0x29a8dc)*(3.9+0.0029*_0x1462c4)*Math[_0x271f87(0x128)](-0xde8*(0x1/(0x111+_0x804d43)-0x1/0x12a)),_0x222136=_0x1763b8-_0x29a8dc/5.07,_0x1ed778=nh_i-_0x50df46/5.07,_0xd7fa64=Um_Kd(_0x804d43),_0x9d44df=Um_Kd(_0x444380),_0xfce5a8=BRC_T(Um_Kd(_0x804d43),_0x222136),_0x5e03a5=Um_Kd(_0x444380)*(_0x1ed778/(0.18+_0x1ed778)),Res_decision_oT1=_0x29a8dc-_0xfce5a8,Res_decision_iT1=_0x50df46-_0x5e03a5,Res_k_rtT1=_0x2863af/_0x1f59e4,_0x24a298=NitrificationDecision(Res_decision_oT1),_0x37fa27=NitrificationDecision(Res_decision_iT1),_0x533e66=DecayDecision(Res_k_rtT1);;_0x3eb449=0xa,_0x2e003a=_0x23e4d3/0xa*_0x3eb449,_0x14151f=_0x10480d*_0x50df46,_0x5a4f92=_0x2863af*Math['pow'](1.08,_0x2e003a),_0x19d3b5=_0x14151f/(0x1+_0x5653d1*_0x5a4f92),_0x4f62c3=_0x1763b8+0.07*(_0x29a8dc-_0x19d3b5),_0x1c1026=_0x804d43+_0x2e003a/0xa*_0x3eb449,T_i2=_0x444380+_0x2e003a/0xa*_0x3eb449,N_iT2=nh_i+0.07*(_0x50df46-_0x14151f),_0x4bf6df=_0x1f59e4*Math[_0x271f87(0x118)](1.04,_0x2e003a),_0x41f2e9=_0x4f62c3-_0x19d3b5/5.07;_0x41f2e9<0x0&&(_0x41f2e9=0x0);_0x200387=N_iT2-_0x14151f/5.07;_0x200387<0x0&&(_0x200387=0x0);_0x390487=Um_Kd(_0x1c1026),_0x4fdf6f=Um_Kd(T_i2),_0x4eed9f=BRC_T(Um_Kd(_0x1c1026),_0x41f2e9),_0x5dd530=Um_Kd(T_i2)*(_0x200387/(0.18+_0x200387)),_0x4afa1c=_0x19d3b5-_0x4eed9f,_0x5a5937=_0x14151f-_0x5dd530,_0x2ddc95=_0x5a4f92/_0x4bf6df,_0x9e325d=NitrificationDecision(_0x4afa1c),_0x2ebf22=NitrificationDecision(_0x5a5937),_0x33c582=DecayDecision(_0x2ddc95),_0x1b92c9=0.4,_0x3eb449=0x1;while(_0x1b92c9>0.2){_0x1b92c9=prediction(_0x804d43,_0x1f59e4,_0x2863af,_0x50df46,_0x29a8dc,_0x1763b8,_0x10480d,_0x3eb449,_0x5653d1),_0x3eb449=_0x3eb449+0x1;if(_0x3eb449>0x19)break;}_0x3eb449>0x19?t2n=_0x271f87(0x11d):t2n=_0x3eb449-0x1;var _0x5d53c3=[_0x24a298,_0x37fa27,_0x533e66,_0x9e325d,_0x2ebf22,_0x33c582],_0x2abb2a=[document[_0x271f87(0xfb)](_0x271f87(0x107)),document['getElementById'](_0x271f87(0x116)),document[_0x271f87(0xfb)](_0x271f87(0xea)),document[_0x271f87(0xfb)](_0x271f87(0xde)),document[_0x271f87(0xfb)]('status_ni_r_pre'),document[_0x271f87(0xfb)](_0x271f87(0x13e))];for(var _0x410060=0x0;_0x410060<0x6;_0x410060++){setStatus(_0x2abb2a[_0x410060],_0x5d53c3[_0x410060]);}document[_0x271f87(0xfb)]('t2n')[_0x271f87(0x12e)]=t2n;}function Um_Kd(_0x1f84cf){var _0x4420cf=_0xe6fbe9,_0x2e8f63=(0.00000774*Math[_0x4420cf(0x118)](_0x1f84cf,0x5)-0.0008*Math[_0x4420cf(0x118)](_0x1f84cf,0x4)+0.0309*Math['pow'](_0x1f84cf,0x3)-0.5579*Math[_0x4420cf(0x118)](_0x1f84cf,0x2)+4.8468*_0x1f84cf-15.425)/1.16;return _0x2e8f63;}function BRC_T(_0x1f0f70,_0x2de000){var _0x4385bb=_0x1f0f70*(_0x2de000/(0.18+_0x2de000));return _0x4385bb;}function NitrificationDecision(_0x3442e6){var _0x58a744=_0xe6fbe9,_0x3bed31;if(_0x3442e6>0.4)_0x3bed31='GREEN';else{if(_0x3442e6>0.2)_0x3bed31=_0x58a744(0xdd);else _0x3bed31=_0x58a744(0x10a);}return _0x3bed31;}function DecayDecision(_0x3b331e){var _0x2c6eba=_0xe6fbe9,_0xe29e4e;if(_0x3b331e>2.5)_0xe29e4e=_0x2c6eba(0x10a);else{if(_0x3b331e>0x1)_0xe29e4e=_0x2c6eba(0xdd);else _0xe29e4e=_0x2c6eba(0x143);}return _0xe29e4e;}function prediction(_0x2dbc46,_0x320813,_0x4809d7,_0x13bb9d,_0x28f964,_0x3b2b38,_0x3ecf27,_0x5e9792,_0x54d1c7){var _0x24b743=_0xe6fbe9,_0x5bb5ba,_0xaee7d9,_0x3a5b45,_0x422dff,_0x522295,_0x2568db,_0x112fef,_0x2aa089,_0x220e50,_0x1cc507,_0x1ee0b5;return _0x5bb5ba=0x1/0xa*_0x5e9792,_0xaee7d9=Math[_0x24b743(0x118)](_0x3ecf27,_0x5e9792/0xa)*_0x13bb9d,_0x3a5b45=_0x4809d7*Math[_0x24b743(0x118)](1.08,_0x5bb5ba),_0x422dff=_0xaee7d9/(0x1+_0x54d1c7*_0x3a5b45),_0x522295=_0x3b2b38+0.07*(_0x28f964-_0x422dff),_0x2568db=_0x2dbc46+_0x5e9792/0xa,_0x112fef=_0x320813*Math[_0x24b743(0x118)](1.04,_0x5bb5ba),_0x2aa089=_0x522295-_0x422dff/5.07,_0x220e50=Um_Kd(_0x2568db),_0x1cc507=BRC_T(Um_Kd(_0x2568db),_0x2aa089),_0x1ee0b5=_0x422dff-_0x1cc507,_0x1ee0b5;}function BRC_calc_ret(){var _0x393dd0=_0xe6fbe9,_0x436327='data_key',_0xc58bb9=JSON[_0x393dd0(0xe3)](window[_0x393dd0(0x12d)][_0x393dd0(0x12b)](_0x436327)),_0x26e82b=_0xc58bb9[_0x393dd0(0x140)],_0x15e8b3=_0xc58bb9[_0x393dd0(0x119)],_0x50d115=_0xc58bb9['cl_o'],_0x41eb72=document[_0x393dd0(0xfb)]('new_ret_t')['value'];y_cl=_0x15e8b3/(parseFloat(0x1)+parseFloat(0x1/_0x26e82b*(_0x15e8b3/_0x50d115-0x1)*_0x41eb72)),document[_0x393dd0(0xfb)](_0x393dd0(0x125))[_0x393dd0(0x12e)]=y_cl[_0x393dd0(0xe2)](0x2);}function BRC_calc_clnh(){var _0x1690fb=_0xe6fbe9,_0x2804fd=_0x1690fb(0x115),_0x4b494e=JSON[_0x1690fb(0xe3)](window[_0x1690fb(0x12d)][_0x1690fb(0x12b)](_0x2804fd)),_0x3bc9ef=_0x4b494e[_0x1690fb(0x140)],_0x247f02=_0x4b494e[_0x1690fb(0x119)],_0x3eb221=_0x4b494e[_0x1690fb(0x155)],_0x4991c8=_0x4b494e[_0x1690fb(0x120)],_0x4f3e07=_0x4b494e[_0x1690fb(0xf2)],_0x47a184=document[_0x1690fb(0xfb)](_0x1690fb(0x135))[_0x1690fb(0x10c)],_0x58833f=document[_0x1690fb(0xfb)](_0x1690fb(0x13d))[_0x1690fb(0x10c)];if((parseFloat(_0x47a184)+parseFloat(_0x3eb221))/_0x58833f-_0x4991c8>0x0)y_nh_add=(parseFloat(_0x47a184)+parseFloat(_0x3eb221))/_0x58833f-_0x4991c8;else y_nh_add=0x0;y_cl_im=parseFloat(_0x3eb221)+parseFloat(_0x47a184),y_cl_nd1=parseFloat(_0x3eb221)+parseFloat((_0x47a184-_0x4f3e07*0x5)*Math[_0x1690fb(0x128)](-_0x247f02/_0x3eb221/_0x3bc9ef*0x18)),document[_0x1690fb(0xfb)]('y_nh_add')[_0x1690fb(0x12e)]=y_nh_add[_0x1690fb(0xe2)](0x2),document[_0x1690fb(0xfb)](_0x1690fb(0x111))[_0x1690fb(0x12e)]=y_cl_im[_0x1690fb(0xe2)](0x2),document[_0x1690fb(0xfb)](_0x1690fb(0x14e))['innerHTML']=y_cl_nd1[_0x1690fb(0xe2)](0x2);}function BRC_calc_cl(){var _0x5c7d95=_0xe6fbe9,_0xa4fd8a=_0x5c7d95(0x115),_0x2fca6c=JSON['parse'](window[_0x5c7d95(0x12d)][_0x5c7d95(0x12b)](_0xa4fd8a)),_0x28bdb7=_0x2fca6c['ret_t'],_0x1c7c2d=_0x2fca6c[_0x5c7d95(0x119)],_0x519a3b=_0x2fca6c[_0x5c7d95(0x155)],_0x25a866=_0x2fca6c[_0x5c7d95(0x120)],_0x3acebc=_0x2fca6c[_0x5c7d95(0xf2)],_0x1048b5=document[_0x5c7d95(0xfb)](_0x5c7d95(0x150))[_0x5c7d95(0x10c)];y_cl_res=parseFloat(_0x519a3b)+parseFloat(_0x1048b5),des_cl2n_2=y_cl_res/_0x25a866,y_cl_nd2=parseFloat(_0x519a3b)+parseFloat((_0x1048b5-0x5*_0x3acebc)*Math['exp'](-_0x1c7c2d/_0x519a3b/_0x28bdb7*0x18)),document[_0x5c7d95(0xfb)](_0x5c7d95(0xff))[_0x5c7d95(0x12e)]=des_cl2n_2[_0x5c7d95(0xe2)](0x2),document[_0x5c7d95(0xfb)](_0x5c7d95(0x105))[_0x5c7d95(0x12e)]=y_cl_res[_0x5c7d95(0xe2)](0x2),document[_0x5c7d95(0xfb)](_0x5c7d95(0xe6))[_0x5c7d95(0x12e)]=y_cl_nd2[_0x5c7d95(0xe2)](0x2);}function BRC_calc_bp(){var _0x3d426e=_0xe6fbe9,_0x12ccef=_0x3d426e(0x115),_0x4095dc=JSON[_0x3d426e(0xe3)](window[_0x3d426e(0x12d)][_0x3d426e(0x12b)](_0x12ccef)),_0x4a2f09=_0x4095dc[_0x3d426e(0x140)],_0x2d3da1=_0x4095dc['cl_i'],_0x4b932f=_0x4095dc['cl_o'],_0x5d61da=_0x4095dc[_0x3d426e(0x120)],_0x496c93=_0x4095dc[_0x3d426e(0xf2)],_0x5bb984=document[_0x3d426e(0xfb)](_0x3d426e(0x12a))['value'];y_cl_im_pb=_0x5bb984*_0x5d61da+_0x496c93/0x2*0x5,y_cl_dose_pb=y_cl_im_pb-_0x4b932f,y_cl_nd3=parseFloat(_0x4b932f)+parseFloat((y_cl_dose_pb-_0x496c93*0x5)*Math['exp'](-_0x2d3da1/_0x4b932f/_0x4a2f09*0x18))-0.5*_0x5d61da,document['getElementById'](_0x3d426e(0xfe))[_0x3d426e(0x12e)]=y_cl_im_pb['toFixed'](0x2),document[_0x3d426e(0xfb)](_0x3d426e(0xf9))[_0x3d426e(0x12e)]=y_cl_dose_pb[_0x3d426e(0xe2)](0x2),document[_0x3d426e(0xfb)](_0x3d426e(0xe0))['innerHTML']=y_cl_nd3[_0x3d426e(0xe2)](0x2);}function BRC_calc_sa(){var _0x5d2353=_0xe6fbe9,_0xf8c120=document[_0x5d2353(0xfb)](_0x5d2353(0xed))['value'],_0x1a1498=document['getElementById'](_0x5d2353(0xf5))[_0x5d2353(0x10c)],_0x6cc711=document[_0x5d2353(0xfb)](_0x5d2353(0x12c))[_0x5d2353(0x10c)],_0x12d62d=document['getElementById'](_0x5d2353(0x10d))['value'],_0x531016=document[_0x5d2353(0xfb)](_0x5d2353(0x117))['value'],_0x3681e8=document[_0x5d2353(0xfb)]('ph')[_0x5d2353(0x10c)],_0x38b157,_0x36242f;_0x38b157=_0xf8c120/_0x1a1498,_0x36242f=(Math[_0x5d2353(0x118)](0xa,-3.113)+Math['pow'](0xa,5.1-_0x3681e8))*(81.98/(5.46-_0x38b157))*(0.003+0.0002*_0xf8c120)*(3.9+0.0029*_0x531016)*Math[_0x5d2353(0x128)](-0xde8*(0x1/0x125-0x1/0x12a)),y_c_dec_25=(Math['pow'](0xa,-3.113)+Math['pow'](0xa,5.1-_0x3681e8))*(81.98/(5.46-_0x38b157))*(0.003+0.0002*_0xf8c120)*(3.9+0.0029*_0x531016)*Math[_0x5d2353(0x128)](-0xde8*(0x1/0x12a-0x1/0x12a)),document[_0x5d2353(0xfb)]('y_cln')[_0x5d2353(0x12e)]=_0x38b157[_0x5d2353(0xe2)](0x2),document['getElementById'](_0x5d2353(0x10b))[_0x5d2353(0x12e)]=_0x36242f['toFixed'](0x4),document[_0x5d2353(0xfb)](_0x5d2353(0x134))[_0x5d2353(0x12e)]=y_c_dec_25[_0x5d2353(0xe2)](0x4);var _0x59e69d=_0x5d2353(0x11b);const _0x3c0fbf={'cl_t':_0xf8c120,'nh_t':_0x1a1498,'cl_disinf':_0x6cc711,'des_temp':_0x12d62d,'alk':_0x531016,'ph':_0x3681e8};window[_0x5d2353(0x12d)]['setItem'](_0x59e69d,JSON['stringify'](_0x3c0fbf));}function _0x316d(_0x483b3f,_0x176e5d){var _0x61e0ce=_0x61e0();return _0x316d=function(_0x316dda,_0x14faa9){_0x316dda=_0x316dda-0xdb;var _0xc7dc02=_0x61e0ce[_0x316dda];return _0xc7dc02;},_0x316d(_0x483b3f,_0x176e5d);}function BRC_reset_data(){var _0x2892b3=_0xe6fbe9;document['getElementById'](_0x2892b3(0x109))['value']='',document[_0x2892b3(0xfb)](_0x2892b3(0x124))['value']='70',document[_0x2892b3(0xfb)]('ret_t')[_0x2892b3(0x10c)]='65',document[_0x2892b3(0xfb)](_0x2892b3(0x119))['value']='1.5',document[_0x2892b3(0xfb)](_0x2892b3(0x155))[_0x2892b3(0x10c)]=_0x2892b3(0x137),document[_0x2892b3(0xfb)](_0x2892b3(0x120))['value']=_0x2892b3(0xfd),document[_0x2892b3(0xfb)]('pH')[_0x2892b3(0x10c)]=_0x2892b3(0x130),document[_0x2892b3(0xfb)](_0x2892b3(0x146))[_0x2892b3(0x10c)]='21',document[_0x2892b3(0xfb)](_0x2892b3(0xe8))['value']='20',document[_0x2892b3(0xfb)](_0x2892b3(0xf2))[_0x2892b3(0x10c)]=_0x2892b3(0x139),document[_0x2892b3(0xfb)](_0x2892b3(0x117))[_0x2892b3(0x10c)]='60';var _0x11edd3=document[_0x2892b3(0x151)](_0x2892b3(0x11e));_0x11edd3[0x0]!=null&&(_0x11edd3[0x0][_0x2892b3(0x12e)]='');var _0x46f55c=_0x2892b3(0x115);window['localStorage'][_0x2892b3(0x132)](_0x46f55c);}function BRC_reset_sp(){var _0x341bc0=_0xe6fbe9;document[_0x341bc0(0xfb)](_0x341bc0(0x107))['innerHTML']='',document[_0x341bc0(0xfb)](_0x341bc0(0x107))[_0x341bc0(0xf4)]=_0x341bc0(0x102),document['getElementById'](_0x341bc0(0x116))['innerHTML']='',document['getElementById'](_0x341bc0(0x116))[_0x341bc0(0xf4)]=_0x341bc0(0x102),document[_0x341bc0(0xfb)](_0x341bc0(0xea))['innerHTML']='',document[_0x341bc0(0xfb)](_0x341bc0(0xea))['className']=_0x341bc0(0x102),document[_0x341bc0(0xfb)](_0x341bc0(0xde))['innerHTML']='',document[_0x341bc0(0xfb)]('status_ni_i_pre')['className']=_0x341bc0(0x102),document[_0x341bc0(0xfb)]('status_ni_r_pre')[_0x341bc0(0x12e)]='',document[_0x341bc0(0xfb)](_0x341bc0(0xe7))[_0x341bc0(0xf4)]=_0x341bc0(0x102),document[_0x341bc0(0xfb)](_0x341bc0(0x13e))['innerHTML']='',document[_0x341bc0(0xfb)](_0x341bc0(0x13e))['className']=_0x341bc0(0x102),document[_0x341bc0(0xfb)](_0x341bc0(0x141))[_0x341bc0(0x12e)]='';var _0x49c7f2=_0x341bc0(0x142);window['localStorage']['removeItem'](_0x49c7f2);}function BRC_reset_ret(){var _0x42ef91=_0xe6fbe9;document[_0x42ef91(0xfb)](_0x42ef91(0xf1))[_0x42ef91(0x10c)]='20',document[_0x42ef91(0xfb)](_0x42ef91(0x125))[_0x42ef91(0x12e)]='';}function _0x61e0(){var _0x318e54=['oa_key','y_cl_dose_pb','getMonth','getElementById','load','0.35','y_cl_im_pb','des_cl2n_2','nav-select','status-caution','status','addEventListener','toLowerCase','y_cl_res','0.8','status_ni_i_curr','classList','date','RED','y_c_dec_20','value','des_temp','status-risk','childNodes','pop','y_cl_im','textAlign','content','Decay\x20Status\x20Not\x20Valid','data_key','status_ni_r_curr','alk','pow','cl_i','cell-input','sa_key','createElement','>25','error-div','1060876CoKVBu','nh_o','div','{\x22cl_t\x22:\x222.2\x22,\x22nh_t\x22:\x220.55\x22,\x22cl_disinf\x22:\x22Yes\x22,\x22des_temp\x22:\x2225\x22,\x22alk\x22:\x2240\x22,\x22ph\x22:\x227.8\x22}','10eNzjGy','avg_vol','y_cl','Safe','style','exp','29722990KumZdH','des_cl2n_3','getItem','cl_disinf','localStorage','innerHTML','5.5','7.6','systemanalysis.html','removeItem','tagName','y_c_dec_25','a_cl_1','0.22','1.1','21XKhvym','0.009','_self','color','pathname','des_cl2n_1','status_dec_pre','split','ret_t','t2n','sp_key','GREEN','8072VrAygt','index.html','temp_i','setItem','High\x20Risk','1017148HaYkVq','Caution','Invalid\x20Input','Summer','2.2','y_cl_nd1','input','y_cl_dose','getElementsByClassName','length','3255zRovBL','Yes','cl_o','add','appendChild','ORANGE','status_ni_i_pre','{\x22avg_vol\x22:\x2270\x22,\x22ret_t\x22:\x2265\x22,\x22cl_i\x22:1.5,\x22cl_o\x22:\x221.1\x22,\x22nh_o\x22:0.35,\x22pH\x22:\x227.6\x22,\x22temp_i\x22:\x2221\x22,\x22temp_o\x22:20,\x22nano3_o\x22:\x220.009\x22,\x22alk\x22:\x2260\x22,\x22y_cl_res\x22:1.45,\x22y_cl_dose\x22:\x220.22\x22}','y_cl_nd3','4.2','toFixed','parse','status-safe','351572hgqcUY','y_cl_nd2','status_ni_r_pre','temp_o','stringify','status_dec_curr','7.8','y_nh_add','cl_t','4357008PykZdr','7471230ywWZWF','open','new_ret_t','nano3_o','insertBefore','className','nh_t','Winter','location'];_0x61e0=function(){return _0x318e54;};return _0x61e0();}function BRC_reset_clnh(){var _0x2185f8=_0xe6fbe9;document[_0x2185f8(0xfb)](_0x2185f8(0x135))[_0x2185f8(0x10c)]=_0x2185f8(0x106),document['getElementById']('des_cl2n_1')[_0x2185f8(0x10c)]=_0x2185f8(0xe1),document[_0x2185f8(0xfb)](_0x2185f8(0xec))[_0x2185f8(0x12e)]='',document[_0x2185f8(0xfb)](_0x2185f8(0x111))[_0x2185f8(0x12e)]='',document['getElementById'](_0x2185f8(0x14e))['innerHTML']='';}function BRC_reset_cl(){var _0x2ab412=_0xe6fbe9;document[_0x2ab412(0xfb)](_0x2ab412(0xff))[_0x2ab412(0x12e)]='',document[_0x2ab412(0xfb)](_0x2ab412(0x105))['innerHTML']='',document[_0x2ab412(0xfb)]('y_cl_dose')['value']=_0x2ab412(0x136),document['getElementById'](_0x2ab412(0xe6))[_0x2ab412(0x12e)]='';}function BRC_reset_bp(){var _0x1a00db=_0xe6fbe9;document[_0x1a00db(0xfb)]('des_cl2n_3')['value']=_0x1a00db(0x12f),document['getElementById'](_0x1a00db(0xfe))[_0x1a00db(0x12e)]='',document[_0x1a00db(0xfb)](_0x1a00db(0xf9))['innerHTML']='',document[_0x1a00db(0xfb)](_0x1a00db(0xe0))[_0x1a00db(0x12e)]='';}function BRC_reset_sa(){var _0x23d22a=_0xe6fbe9;document[_0x23d22a(0xfb)](_0x23d22a(0xed))[_0x23d22a(0x10c)]=_0x23d22a(0x14d),document['getElementById'](_0x23d22a(0xf5))[_0x23d22a(0x10c)]='0.55',document['getElementById'](_0x23d22a(0x12c))[_0x23d22a(0x10c)]=_0x23d22a(0x154),document[_0x23d22a(0xfb)](_0x23d22a(0x10d))[_0x23d22a(0x10c)]='25',document[_0x23d22a(0xfb)](_0x23d22a(0x117))['value']='40',document['getElementById']('ph')['value']=_0x23d22a(0xeb),document[_0x23d22a(0xfb)]('y_cln')['innerHTML']='',document[_0x23d22a(0xfb)](_0x23d22a(0x10b))['innerHTML']='',document[_0x23d22a(0xfb)](_0x23d22a(0x134))[_0x23d22a(0x12e)]='';var _0x566feb=_0x23d22a(0x11b);window[_0x23d22a(0x12d)]['removeItem'](_0x566feb);}function setStatus(_0x17f6e5,_0x2cc9bc){var _0x3939de=_0xe6fbe9;if(_0x2cc9bc==_0x3939de(0x143))_0x17f6e5[_0x3939de(0x12e)]=_0x3939de(0x126),_0x17f6e5[_0x3939de(0x108)][_0x3939de(0xdb)](_0x3939de(0xe4));else{if(_0x2cc9bc==_0x3939de(0xdd))_0x17f6e5[_0x3939de(0x12e)]=_0x3939de(0x14a),_0x17f6e5[_0x3939de(0x108)][_0x3939de(0xdb)](_0x3939de(0x101));else _0x2cc9bc=='RED'&&(_0x17f6e5[_0x3939de(0x12e)]=_0x3939de(0x148),_0x17f6e5[_0x3939de(0x108)]['add'](_0x3939de(0x10e)));}}
+/*	BRC Calculator
+	BRC author: Sathaa Sathasivan
+	Javascript & MATLAB implementation by Ram Singh
+	v.1.0: 7 Sep 2021 - Implemented code with basic computational functions.
+	v.1.1: 26 Dec 2021 - Implemented feedback text display to html.
+	v.1.2: 27 Dec 2021 - Implemented coloured status feedback.
+	v.1.3: 28 Dec 2021 - Implemented time to nitrification.
+	Updatesn by Inuri Gunasekara
+	Seperated BRC_calc() function to BRC_calc_sp() and BRC_calc_oa()
+	Added BRC_calc() function for system decay analysis
+	Added reset functions 
+	Added an event listener to retrieve values from local storage
+	Added new calculations for BRC_calc_sp()
+*/
+
+window.addEventListener("load",loadItems);
+
+// Load values from localStorage or use default values
+function loadItems(e) {
+	// Load Values in from local storage 
+	var path = window.location.pathname;
+	var page = path.split("/").pop();
+
+	if(page=="index.html") {
+		return;
+	} else if(page=="systemanalysis.html") {
+		var key="sa_key";
+	} else {
+		var key="data_key";
+	} 
+
+	var records = window.localStorage.getItem(key);
+
+	if(records!=null) {
+		var struct = JSON.parse(records);
+
+		for (var x in struct){
+			if(document.getElementById(x).tagName.toLowerCase() === 'input') {
+				document.getElementById(x).value = struct[x];
+			} else {
+				document.getElementById(x).innerHTML = struct[x];
+			}
+		} 		
+	} // Else set values to default
+		else {
+			if (key == "sp_key") {
+				var records = '{"avg_vol":"70","ret_t":"65","cl_i":1.5,"cl_o":"1.1","nh_o":0.35,"pH":"7.6","temp_i":"21","temp_o":20,"nano3_o":"0.009","alk":"60"}';
+			} else if (key == "oa_key") {
+					var records = '{"avg_vol":"70","ret_t":"65","cl_i":1.5,"cl_o":"1.1","nh_o":0.35,"pH":"7.6","temp_i":"21","temp_o":20,"nano3_o":"0.009","alk":"60","y_cl_res":1.45,"y_cl_dose":"0.22"}';
+			} else if (key == "sa_key") {
+					var records = '{"cl_t":"2.2","nh_t":"0.55","cl_disinf":"Yes","des_temp":"25","alk":"40","ph":"7.8"}';
+			}
+
+			var struct = JSON.parse(records);
+
+			for (var x in struct){
+				if(document.getElementById(x).tagName.toLowerCase() === 'input') {
+					document.getElementById(x).value = struct[x];
+				} else {
+					document.getElementById(x).innerHTML = struct[x];
+				}
+			}
+		}
+}
+
+// Go to chosen page on button click
+function goTo() {
+	var page = document.getElementById("nav-select").value;
+	window.open(page,"_self");
+}
+
+function validateInputs() {
+	// Remove Error div
+	var elem = document.getElementsByClassName("error-div");
+	for(i=0; i < elem.length; i++) {
+		if (elem[i] != null) {
+			elem[i].innerHTML = '';
+		}
+	}
+
+	// Reset error div
+	var cells = document.getElementsByClassName("cell-input");
+	for(i=0; i < cells.length; i++) {
+		cells[i].childNodes[0].style.background = "white";
+	}
+
+	// INPUT
+	// Acquire following input variables from HTML form:
+	// Data Entry variables
+
+	var date = document.getElementById("date").value;				// Date
+	var avg_vol = document.getElementById("avg_vol").value;			// Average colume of water (ML)
+	var ret_t = document.getElementById("ret_t").value;				// Retention time within reservoir (h)
+	var cl_i = document.getElementById("cl_i").value;				// Total chlorine in (mg/L)
+	var cl_o = document.getElementById("cl_o").value;				// Total chlorine out (mg/L)
+	var nh_o = document.getElementById("nh_o").value;				// Total ammonia (mg-N/L)
+	var pH = (document.getElementById('pH').value);					// pH level
+	var temp_i = document.getElementById("temp_i").value;			// Temperature in (deg-C)
+	var temp_o = document.getElementById("temp_o").value;			// Temperature out (deg-C)
+	var nano3_o = document.getElementById("nano3_o").value;			// Nitrate out (mg-N/L)
+	var alk = document.getElementById("alk").value;					// Alkaline Value
+
+	// Set flag 
+	var flag = 0;
+	// date
+	if(!date) {
+		flag = 1;
+		errorMessage(0,1);
+	} 
+	// Average volume
+	if(avg_vol < 0.1 || avg_vol > 150) {
+		flag = 1;
+		errorMessage(1,1);
+	}
+	// Retention time
+	if(ret_t < 1 || ret_t > 150) {
+		flag = 1;
+		errorMessage(2,1);
+	}
+	// Total chlorine in
+	if(cl_i < 0.5 || cl_i > 5) {
+		flag = 1;
+		errorMessage(3,1);
+	}
+	// Total chlorine out
+	if(cl_o < 0.05 || cl_o > 5) {
+		flag = 1;
+		errorMessage(4,1);
+	}
+	// Total ammonia out
+	if(nh_o < 0.05 || nh_o > 1.5) {
+		flag = 1;
+		errorMessage(5,1);
+	}
+	// pH
+	if(pH < 0 || pH > 10) {
+		flag = 1;
+		errorMessage(6,1);
+	}
+	// Temperature in 
+	if(temp_i < 10 || temp_i > 32) {
+		flag = 1;
+		errorMessage(7,1);
+	}
+	// Temperature out
+	if(temp_o < 10 || temp_o > 32) {
+		flag = 1;
+		errorMessage(8,1);
+	}
+	// Nitrate out
+	if(nano3_o < 0 || nano3_o > 1) {
+		flag = 1;
+		errorMessage(9,1);
+	}
+	// Alkaline 
+	if(alk < 0 || alk > 200) {
+		flag = 1;
+		errorMessage(10,1);
+	}
+	// Chlorine to Ammonia ratio
+	var cl_n_ratio = cl_o/nh_o;
+	if(cl_n_ratio > 4.6) {
+		flag = 2;
+		errorMessage(11,2);
+	}
+
+	if(flag==0) {
+		BRC_save_data();
+	} 
+}
+
+// Display relevant error message
+function errorMessage(errorID, flag) {
+	
+	displayText = {
+		1:"Invalid Input",
+		2:"Decay Status Not Valid"
+	};
+	// Highlight cell with error
+	document.getElementsByClassName("cell-input")[errorID].childNodes[0].style.background = "#ffb3b3";
+
+	// Create error div to display error
+	const errorDiv = document.createElement("div");
+	errorDiv.className = "error-div";
+	const newContent = document.createTextNode(displayText[flag]);
+	errorDiv.appendChild(newContent);
+	errorDiv.style.textAlign = 'center';
+	errorDiv.style.color = 'red';
+	const prevDiv = document.getElementsByClassName("content");
+	document.body.insertBefore(errorDiv,prevDiv[0]);
+	return;
+}
+
+function BRC_save_data() {
+	
+	// INPUT
+	// Acquire following input variables from HTML form:
+	// Data Entry variables
+
+	var date = document.getElementById("date").value;				// Date
+	var avg_vol = document.getElementById("avg_vol").value;			// Average colume of water (ML)
+	var ret_t = document.getElementById("ret_t").value;				// Retention time within reservoir (h)
+	var cl_i = document.getElementById("cl_i").value;				// Total chlorine in (mg/L)
+	var cl_o = document.getElementById("cl_o").value;				// Total chlorine out (mg/L)
+	var nh_o = document.getElementById("nh_o").value;				// Total ammonia (mg-N/L)
+	var pH = (document.getElementById('pH').value);					// pH level
+	var temp_i = document.getElementById("temp_i").value;			// Temperature in (deg-C)
+	var temp_o = document.getElementById("temp_o").value;			// Temperature out (deg-C)
+	var nano3_o = document.getElementById("nano3_o").value;			// Nitrate out (mg-N/L)
+	var alk = document.getElementById("alk").value;					// Alkaline Value
+
+	// Store updated values in localStorage
+
+	var key = "data_key";
+
+	const data = {
+		date: date,
+		avg_vol: avg_vol,
+		ret_t: ret_t,
+		cl_i: cl_i,
+		cl_o: cl_o,
+		nh_o: nh_o,	
+		pH: pH,
+		temp_i: temp_i,
+		temp_o: temp_o,	
+		nano3_o: nano3_o,
+		alk: alk
+		}
+
+	window.localStorage.setItem(key,JSON.stringify(data));
+
+}
+
+// Calculates the current status of reservoir and predicted state
+function BRC_calc_sp_old()
+{
+	// INPUT
+	// Acquire following input variables from localStorage:
+	// Data Entry variables
+	
+	var key = "data_key";
+	var records = JSON.parse(window.localStorage.getItem(key));
+	
+	var avg_vol = records.avg_vol;			// Average colume of water (ML)
+	var ret_t = records.ret_t;				// Retention time within reservoir (h)
+	var cl_i = records.cl_i;				// Total chlorine in (mg/L)
+	var cl_o = records.cl_o;				// Total chlorine out (mg/L)
+	var nh_o = records.nh_o;				// Total ammonia (mg-N/L)
+	var pH = records.pH;					// pH level
+	var temp_i = records.temp_i;			// Temperature in (deg-C)
+	var temp_o = records.temp_o;			// Temperature out (deg-C)
+	var nano3_o = records.nano3_o;			// Nitrate out (mg-N/L)
+	var alk = records.alk;					// Alkaline value
+	
+	// Define output variables
+	var p_m1, p_m2, y_nh_r, y_nh_i, nh_i, y_ni_i_curr, status_ni_i_curr;
+	var y_ni_r_curr, status_ni_r_curr, pre_buf, y_dec_curr, status_dec_curr;
+	var y_ni_i_pre, status_ni_i_pre, pre_in, y_ni_r_pre, status_ni_r_pre, y_dec_pre, status_dec_pre, t2n;
+	
+	var d = new Date();			// Get current date
+	var m = parseFloat(d.getMonth())+parseFloat(1);		// Get current month index
+	
+	// Define temp buffers
+	var buff1, buff2, buff3, var1, var2, var3, var4, bit;
+	
+	// Monthly variable 1:
+	if (m > 8)
+		p_m1 = 1;
+	else {
+		if (m > 2)
+			p_m1 = -0.5;
+		else
+			p_m1 = 1;
+	}
+	// Monthly variable 2:
+	if (p_m1 == 1)
+		p_m2 = 0.95;
+	else
+		p_m2 = 1.05;
+	
+	// Convert to floating-point value:
+	temp_o = parseFloat(temp_o);
+	nh_o = parseFloat(nh_o);
+	cl_i = parseFloat(cl_i);
+	
+	// DATA ENTRY OUTPUT:
+	nh_i = parseFloat(nh_o)+parseFloat((cl_i-cl_o)*0.072);				// Total inlet ammonia
+	
+	// Current status - Inlet nitrification
+	y_ni_i_curr = cl_i-((0.00000774*Math.pow(temp_i,5)-parseFloat(0.0008*Math.pow(temp_i,4))+parseFloat(0.0309*Math.pow(temp_i,3))-parseFloat(0.5579*Math.pow(temp_i,2))+parseFloat(4.8468*temp_i)-15.425)/1.16)*(nh_i-cl_i/71*14)/(parseFloat(0.18)+parseFloat(nh_i)-cl_i/71*14);
+	if (y_ni_i_curr >= 0.41)
+		status_ni_i_curr = "GREEN";
+	else if (y_ni_i_curr >= 0.21)
+		status_ni_i_curr = "ORANGE";
+	else
+		status_ni_i_curr = "RED";
+
+	// Current status - Nitrification within reservoir:
+	y_ni_r_curr = cl_o-((0.00000774*Math.pow(temp_o,5)-parseFloat(0.0008*Math.pow(temp_o,4))+parseFloat(0.0309*Math.pow(temp_o,3))-parseFloat(0.5579*Math.pow(temp_o,2))+parseFloat(4.8468*temp_o)-15.425)/1.16)*(nh_o-cl_o/5.07)/(parseFloat(0.18)+parseFloat(nh_o)-cl_o/5.07);	
+	if (y_ni_r_curr >= 0.41)
+		status_ni_r_curr = 'GREEN';
+	else if (y_ni_r_curr >= 0.21)
+		status_ni_r_curr = 'ORANGE';
+	else
+		status_ni_r_curr = 'RED';
+	
+	pre_buf = (parseFloat(Math.pow(10,-3.113))+(Math.pow(10,5.1-parseFloat(pH))))*(81.98/(5.46-parseFloat(cl_o/nh_o)))*(parseFloat(0.003)+parseFloat(0.0002*cl_o))*(parseFloat(3.9)+parseFloat(0.0029*alk))*Math.exp(-3560*(1/293-1/298));	// Prediction buffer
+
+	// Current status - Decay within reservoir:
+	y_dec_curr = 2.5-((cl_i/cl_o-1)/ret_t)/(pre_buf*Math.pow(1.04,(temp_o-20)));
+	if (y_dec_curr >= 0.41)
+		status_dec_curr = 'GREEN';
+	else if (y_dec_curr >= 0.21)
+		status_dec_curr = 'ORANGE';
+	else
+		status_dec_curr = 'RED';
+
+	// Predicted inlet nitrification:
+	buff1 = parseFloat(temp_o)+parseFloat(p_m1);
+	y_ni_i_pre = cl_i*p_m2-((0.00000774*Math.pow(buff1,5)-parseFloat(0.0008*Math.pow(buff1,4))+parseFloat(0.0309*Math.pow(buff1,3))-parseFloat(0.5579*Math.pow(buff1,2))+parseFloat(4.8468*(buff1))-15.425)/1.16)*((parseFloat(nh_o)+parseFloat(0.13*(cl_i*p_m2-cl_o)))-(cl_i*p_m2)/5)/(parseFloat(((parseFloat(nh_o)+parseFloat(0.13*(cl_i*p_m2-cl_o)))-(cl_i*p_m2)/5))+parseFloat(0.18));
+	if (y_ni_i_pre >= 0.41)
+		status_ni_i_pre = 'GREEN';
+	else if (y_ni_i_pre >= 0.21)
+		status_ni_i_pre = 'ORANGE';
+	else
+		status_ni_i_pre = 'RED';
+	
+	pre_in = (cl_i/cl_o-1)/ret_t;					// Predicted inlet variable
+	
+	// Predicted nitrification within reservoir:
+	buff2 = parseFloat(273.0)+parseFloat(temp_o);
+	buff3 = parseFloat(273.0)+parseFloat(temp_o)+parseFloat(p_m1);
+	y_ni_r_pre = (cl_i*p_m2/(parseFloat(1)+parseFloat(ret_t*(pre_in*Math.exp(6750*(1/buff2-1/buff3))*(1.05)))))-(((0.00000774*Math.pow(buff1,5)-parseFloat(0.0008*Math.pow(buff1,4))+parseFloat(0.0309*Math.pow(buff1,3))-0.5579*Math.pow(buff1,2)+parseFloat(4.8468*buff1)-15.425)/1.16)*((nh_o-(cl_o-(cl_i*p_m2/(parseFloat(1)+parseFloat(ret_t*(pre_in*Math.exp(6750*(1/buff2-1/buff3))*(1.05))))))*0.13)-(cl_i*p_m2/(parseFloat(1)+parseFloat(ret_t*(pre_in*Math.exp(6750*(1/buff2-1/buff3))*(1.05)))))/5)/(((nh_o-(cl_o-(cl_i*p_m2/(parseFloat(1)+parseFloat(ret_t*(pre_in*Math.exp(6750*(1/buff2-1/buff3))*(1.05))))))*0.13)-(cl_i*p_m2/(parseFloat(1)+parseFloat(ret_t*(pre_in*Math.exp(6750*(1/buff2-1/buff3))*(1.05)))))/5)+parseFloat(0.18)));
+	if (y_ni_r_pre >= 0.41)
+		status_ni_r_pre = 'GREEN';
+	else if (y_ni_r_pre >= 0.21)
+		status_ni_r_pre = 'ORANGE';
+	else
+    	status_ni_r_pre = 'RED';
+		
+	// Predicted decay within reservoir:
+	y_dec_pre = 2.5-(cl_i-cl_o)/cl_o/ret_t/pre_buf*Math.pow(1.04,parseFloat(temp_o-20)+parseFloat(p_m1));
+	if (y_dec_pre >= 0.41)
+		status_dec_pre = 'GREEN';
+	else if (y_dec_pre >= 0.21)
+		status_dec_pre = 'ORANGE';
+	else
+    	status_dec_pre = 'RED';
+	
+	// Time to nitrification:
+	var mul5 = [0.0,5.0,10.0,15.0,20.0,25.0,30.0];
+
+	var1 = (cl_i*Math.pow(p_m2,mul5[2]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[2]/10*p_m1)))*Math.pow(1.05,mul5[2]/10))))
+    -(((0.00000774*Math.pow(temp_o+mul5[2]/10*p_m1,5) - 0.0008*Math.pow(temp_o+mul5[2]/10*p_m1,4) + 0.0309*Math.pow(temp_o+mul5[2]/10*p_m1,3) - 
+	0.5579*Math.pow(temp_o+mul5[2]/10*p_m1,2) + 4.8468*(temp_o+mul5[2]/10*p_m1) - 15.425)/1.16)*((nh_o-(cl_o-(cl_i*Math.pow(p_m2,mul5[2]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[2]/10*p_m2)))*Math.pow(1.05,mul5[2]/10)))))*0.13)-(cl_i*Math.pow(p_m2,mul5[2]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[2]/10*p_m1)))*Math.pow(1.05,mul5[2]/10))))/5)/(((nh_o-(cl_o-(cl_i*Math.pow(p_m2,mul5[2]/10)/
+    (1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[2]/10*p_m1)))*Math.pow(1.05,mul5[2]/10)))))*0.13)-(cl_i*Math.pow(p_m2,mul5[2]/10)/
+    (1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[2]/10*p_m1)))*Math.pow(1.05,mul5[2]/10))))/5)+0.18));
+	
+	var2 = (cl_i*Math.pow(p_m2,mul5[3]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[3]/10*p_m1)))*Math.pow(1.05,mul5[3]/10))))
+    -(((0.00000774*Math.pow(temp_o+mul5[3]/10*p_m1,5) - 0.0008*Math.pow(temp_o+mul5[3]/10*p_m1,4) + 0.0309*Math.pow(temp_o+mul5[3]/10*p_m1,3) - 
+	0.5579*Math.pow(temp_o+mul5[3]/10*p_m1,2) + 4.8468*(temp_o+mul5[3]/10*p_m1) - 15.425)/1.16)*((nh_o-(cl_o-(cl_i*Math.pow(p_m2,mul5[3]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[3]/10*p_m2)))*Math.pow(1.05,mul5[3]/10)))))*0.13)-(cl_i*Math.pow(p_m2,mul5[3]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[3]/10*p_m1)))*Math.pow(1.05,mul5[3]/10))))/5)/(((nh_o-(cl_o-(cl_i*Math.pow(p_m2,mul5[3]/10)/
+    (1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[3]/10*p_m1)))*Math.pow(1.05,mul5[3]/10)))))*0.13)-(cl_i*Math.pow(p_m2,mul5[3]/10)/
+    (1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[3]/10*p_m1)))*Math.pow(1.05,mul5[3]/10))))/5)+0.18));
+	
+	var3 = (cl_i*Math.pow(p_m2,mul5[4]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[4]/10*p_m1)))*Math.pow(1.05,mul5[4]/10))))
+    -(((0.00000774*Math.pow(temp_o+mul5[4]/10*p_m1,5) - 0.0008*Math.pow(temp_o+mul5[4]/10*p_m1,4) + 0.0309*Math.pow(temp_o+mul5[4]/10*p_m1,3) - 
+	0.5579*Math.pow(temp_o+mul5[4]/10*p_m1,2) + 4.8468*(temp_o+mul5[4]/10*p_m1) - 15.425)/1.16)*((nh_o-(cl_o-(cl_i*Math.pow(p_m2,mul5[4]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[4]/10*p_m2)))*Math.pow(1.05,mul5[4]/10)))))*0.13)-(cl_i*Math.pow(p_m2,mul5[4]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[4]/10*p_m1)))*Math.pow(1.05,mul5[4]/10))))/5)/(((nh_o-(cl_o-(cl_i*Math.pow(p_m2,mul5[4]/10)/
+    (1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[4]/10*p_m1)))*Math.pow(1.05,mul5[4]/10)))))*0.13)-(cl_i*Math.pow(p_m2,mul5[4]/10)/
+    (1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[4]/10*p_m1)))*Math.pow(1.05,mul5[4]/10))))/5)+0.18));
+	
+	var4 = (cl_i*Math.pow(p_m2,mul5[5]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[5]/10*p_m1)))*Math.pow(1.05,mul5[5]/10))))
+    -(((0.00000774*Math.pow(temp_o+mul5[5]/10*p_m1,5) - 0.0008*Math.pow(temp_o+mul5[5]/10*p_m1,4) + 0.0309*Math.pow(temp_o+mul5[5]/10*p_m1,3) - 
+	0.5579*Math.pow(temp_o+mul5[5]/10*p_m1,2) + 4.8468*(temp_o+mul5[5]/10*p_m1) - 15.425)/1.16)*((nh_o-(cl_o-(cl_i*Math.pow(p_m2,mul5[5]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[5]/10*p_m2)))*Math.pow(1.05,mul5[5]/10)))))*0.13)-(cl_i*Math.pow(p_m2,mul5[5]/10)/
+	(1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[5]/10*p_m1)))*Math.pow(1.05,mul5[5]/10))))/5)/(((nh_o-(cl_o-(cl_i*Math.pow(p_m2,mul5[5]/10)/
+    (1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[5]/10*p_m1)))*Math.pow(1.05,mul5[5]/10)))))*0.13)-(cl_i*Math.pow(p_m2,mul5[5]/10)/
+    (1+ret_t*(pre_in*Math.exp(6750*(1/(273+temp_o)-1/(273+temp_o+mul5[5]/10*p_m1)))*Math.pow(1.05,mul5[5]/10))))/5)+0.18));
+	
+	if (var1 < 0.05) {
+		bit = 1;			// Redundant variable
+	}
+	else if (var2 < 0.05) {
+		bit = 1;
+	}
+	else if (var3 < 0.05) {
+		bit = 1;
+		t2n = 5;			// Time to nitrification (days)
+	}
+	else if (var4 < 0.05) {
+		bit = 1;
+		t2n = 10;			// Time to nitrification (days)
+	}
+	else {
+		bit = 0;
+		t2n = 15;			// Time to nitrification (days)
+	}
+		
+	// Return output variables to HTML:	
+	var status = [status_ni_i_curr,status_ni_r_curr,status_dec_curr,status_ni_i_pre,status_ni_r_pre,status_dec_pre];
+	var element = [
+		document.getElementById('status_ni_i_curr'),
+		document.getElementById('status_ni_r_curr'),
+		document.getElementById('status_dec_curr'),
+		document.getElementById('status_ni_i_pre'),
+		document.getElementById('status_ni_r_pre'),
+		document.getElementById('status_dec_pre')
+	];
+
+	for(var i = 0; i < 6; i++) {
+		setStatus(element[i],status[i])
+	}
+
+	document.getElementById('t2n').innerHTML = t2n;
+}
+
+function BRC_calc_sp(){
+	// INPUT
+	// Acquire following input variables from localStorage:
+	// Data Entry variables
+	
+	var key = "data_key";
+	var records = JSON.parse(window.localStorage.getItem(key));
+	
+	var date = records.date;
+	var avg_vol = records.avg_vol;			// Average colume of water (ML)
+	var ret_t = records.ret_t;				// Retention time within reservoir (h)
+	var cl_i = records.cl_i;				// Total chlorine in (mg/L)
+	var cl_o = records.cl_o;				// Total chlorine out (mg/L)
+	var nh_o = records.nh_o;				// Total ammonia (mg-N/L)
+	var pH = records.pH;					// pH level
+	var temp_i = records.temp_i;			// Temperature in (deg-C)
+	var temp_o = records.temp_o;			// Temperature out (deg-C)
+	var nano3_o = records.nano3_o;			// Nitrate out (mg-N/L)
+	var alk = records.alk;					// Alkaline value
+	
+	// Define output variables
+	var k_rt_T1, k_cT1, FN_oT1, FN_iT1, Um_Kd_oT1, Um_Kd_iT1, BRC_oT1, BRC_iT1;
+    var DT, Cl_iT2, k_rt_T2, Cl_oT2, N_oT2, T_o2, k_cT2, FN_oT2, FN_iT2, Um_Kd_oT2, Um_Kd_iT2, BRC_oT2, BRC_iT2, Res_decision_oT2;
+    var Res_decision_iT2, Res_k_rtT2, y;
+	var status_ni_i_curr,status_ni_r_curr,status_dec_curr,status_ni_i_pre,status_ni_r_pre,status_dec_pre;
+
+	var d1 = new Date(date);			// Get current date
+	var m = parseFloat(d1.getMonth())+parseFloat(1);		// Get current month index
+	var d = 1;		// start things off
+
+	// Find Season
+	var DT_10 = 1;
+	var alpha = 0.95;				// Adjustment factor for increase or decrease
+	var season = "Summer";
+
+	if(m > 3 && m < 8) {
+		DT_10 = -0.5;
+		alpha = 1.05;
+		season = "Winter";
+	}
+
+    // Convert to floating-point value:
+	temp_o = parseFloat(temp_o);
+	temp_i = parseFloat(temp_i);
+	nh_o = parseFloat(nh_o);
+	cl_i = parseFloat(cl_i);
+	
+	// DATA ENTRY OUTPUT:
+	nh_i = parseFloat(nh_o)+parseFloat((cl_i-cl_o)*0.07);				// Total inlet ammonia
+	
+    // N_iT1 =N_oT1 + (Cl_iT1-Cl_oT1)*0.07; %Total Ammonia in inlet
+    // fprintf('Total Amonia in inlet N_iT1 = %f or %.2f (rounded)\n',N_iT1,N_iT1);
+
+    k_rt_T1=(cl_i/cl_o - 1)/ret_t;
+
+    // Chemical decay rate at reservoir
+    // k_cT1 = (10^(-3.113)+10^(5.1-pH))*(81.98/(5.46-cl_o/nh_o))*(0.003+0.0002*cl_o)*(3.9+0.0029*alk)*exp(-3560*(1/(273+temp_o)-1/298));
+    k_cT1 = (Math.pow(10,-3.113) + Math.pow(10,(5.1 - pH)))*(81.98/(5.46-cl_o/nh_o))*(0.003+0.0002*cl_o)*(3.9+0.0029*alk)*Math.exp(-3560*(1/(273+temp_o)-1/298));
+	
+    FN_oT1 = nh_o - cl_o/5.07;
+
+    FN_iT1 = nh_i - cl_i/5.07; 
+
+    Um_Kd_oT1 = Um_Kd(temp_o);
+
+    Um_Kd_iT1 = Um_Kd(temp_i);
+
+    BRC_oT1 = BRC_T(Um_Kd(temp_o), FN_oT1);
+
+    BRC_iT1 = Um_Kd(temp_i)*(FN_iT1/(0.18 + FN_iT1));  
+
+    Res_decision_oT1 = cl_o - BRC_oT1;
+
+    // Nitrification risk in inlet 
+    Res_decision_iT1=cl_i - BRC_iT1;
+
+    Res_k_rtT1 = k_rt_T1/k_cT1;         // now
+
+    // Current reservoir status 
+	status_ni_i_curr = NitrificationDecision(Res_decision_oT1);
+    status_ni_r_curr = NitrificationDecision(Res_decision_iT1);
+    status_dec_curr = DecayDecision(Res_k_rtT1);;
+
+    // Reservoir status in 10 days
+    d = 10;
+
+    DT = DT_10/10*d;
+
+    Cl_iT2 = (alpha)*cl_i;              // Total chlorine at inlet
+	
+    // k_rt_T2 = k_rt_T1 * 1.08^DT;  
+    k_rt_T2 = k_rt_T1 * Math.pow(1.08,DT);  
+
+    Cl_oT2 = Cl_iT2/(1 + ret_t * k_rt_T2);            // Total chlorine at outlet
+	
+    N_oT2 = nh_o + 0.07*(cl_o - Cl_oT2);               // Total ammonia at outlet
+	
+    T_o2 = temp_o + DT /10 * d;                            // Future outlet temparate in 10 days
+
+    T_i2 = temp_i + DT / 10 * d;                              // Future inlet temparate in 10 days
+	
+    N_iT2 = nh_i + 0.07*(cl_i-Cl_iT2);                  // Total ammonia in inlet
+
+    // Chemical decay rate at T2 
+    
+    // k_cT2 = k_cT1 * 1.04^DT;
+    k_cT2 = k_cT1 * Math.pow(1.04,DT);
+
+    FN_oT2 = N_oT2 - Cl_oT2/5.07;
+    if(FN_oT2 < 0) {
+        FN_oT2 = 0;
+    }
+	
+    FN_iT2 = N_iT2 - Cl_iT2/5.07; 
+    if (FN_iT2<0) {
+        FN_iT2 = 0;
+    }
+
+    Um_Kd_oT2 = Um_Kd(T_o2);
+
+    Um_Kd_iT2 = Um_Kd(T_i2);
+
+	BRC_oT2 = BRC_T(Um_Kd(T_o2), FN_oT2);
+
+	BRC_iT2 = Um_Kd(T_i2)*(FN_iT2/(0.18 + FN_iT2));  
+	
+    Res_decision_oT2 = Cl_oT2 - BRC_oT2;
+
+    // Nitrification risk in inlet 
+    Res_decision_iT2 = Cl_iT2 - BRC_iT2;
+
+    Res_k_rtT2 = k_rt_T2/k_cT2; // now
+
+    // Reservoir status in given number of days (d)  
+    status_ni_i_pre = NitrificationDecision(Res_decision_oT2);
+    status_ni_r_pre = NitrificationDecision(Res_decision_iT2);
+    status_dec_pre = DecayDecision(Res_k_rtT2);
+
+	// Time to Nitrification
+	y = 0.4;
+	d = 1;
+
+	while (y > 0.2) {
+		y = prediction(temp_o, k_cT1, k_rt_T1, cl_i, cl_o, nh_o, alpha, d, ret_t);
+
+		d = d + 1 ;
+
+		if (d > 25)
+			break;
+	}
+		
+	if (d > 25) {
+		t2n = ">25";
+	} else {
+		t2n = d - 1;
+	}
+
+	// Return output variables to HTML:	
+	var status = [status_ni_i_curr,status_ni_r_curr,status_dec_curr,status_ni_i_pre,status_ni_r_pre,status_dec_pre];
+	var element = [
+		document.getElementById('status_ni_i_curr'),
+		document.getElementById('status_ni_r_curr'),
+		document.getElementById('status_dec_curr'),
+		document.getElementById('status_ni_i_pre'),
+		document.getElementById('status_ni_r_pre'),
+		document.getElementById('status_dec_pre')
+	];
+
+	for(var i = 0; i < 6; i++) {
+		setStatus(element[i],status[i])
+	}
+
+	document.getElementById('t2n').innerHTML = t2n;
+
+}
+
+function Um_Kd(T) {
+    // var y = (0.00000774*T^5-0.0008*T^4+0.0309*T^3-0.5579*T^2+4.8468*T-15.425)/1.16;
+    var y = (0.00000774 * Math.pow(T,5) - 0.0008 * Math.pow(T,4) + 0.0309 * Math.pow(T,3) - 0.5579 * Math.pow(T,2) + 4.8468 * T - 15.425)/1.16;
+
+    return y;
+}
+
+function BRC_T(NmKd_T, FN_T) {
+    var y = NmKd_T*(FN_T/(0.18+FN_T));
+
+    return y;
+}
+
+function NitrificationDecision(x) {
+
+    var decision;
+
+    if (x > 0.4) 
+        decision = 'GREEN';
+    else if (x > 0.2)
+        decision = 'ORANGE';
+    else
+        decision = 'RED';
+    return decision;
+}
+
+function DecayDecision(x) {
+	var decision;
+
+	if(x > 2.5)
+		decision = 'RED';
+	else if(x > 1)
+		decision = 'ORANGE';
+	else
+		decision = 'GREEN';
+
+	return decision;
+}
+
+function prediction(T_o1, k_cT1, k_rt_T1, Cl_iT1, Cl_oT1, N_oT1, alpha, d, ret_t) {
+
+    var DT, Cl_iTd, k_rt_Td, Cl_oTd, N_oTd, T_od, k_cTd, FN_oTd, Um_Kd_oTd, BRC_oTd, y;
+
+    DT = 1/10 * d;
+    Cl_iTd = Math.pow((alpha),(d/10))*Cl_iT1; // Total chlorine in inlet
+    k_rt_Td = k_rt_T1 * Math.pow(1.08,DT);  // This needs to be calculated here
+    Cl_oTd = Cl_iTd/(1 + ret_t * k_rt_Td); //Total chlorine in outlet
+    N_oTd = N_oT1 + 0.07*(Cl_oT1-Cl_oTd); // Total Amonia in outlet
+    T_od = T_o1 + d/10; // Future outlet temparate in d days
+    k_cTd = k_cT1 * Math.pow(1.04,DT);
+    FN_oTd = N_oTd - Cl_oTd/5.07;
+    Um_Kd_oTd = Um_Kd(T_od);
+    BRC_oTd = BRC_T(Um_Kd(T_od), FN_oTd);
+
+    y = Cl_oTd - BRC_oTd;
+
+    return y;
+}
+
+// Decrease Retention time calculations
+function BRC_calc_ret(){
+// INPUT
+	// Acquire following input variables from localStorage:
+	// Data Entry variables
+	
+	var key = "data_key";
+	var records = JSON.parse(window.localStorage.getItem(key));
+	
+	var ret_t = records.ret_t;				// Retention time within reservoir (h)
+	var cl_i = records.cl_i;				// Total chlorine in (mg/L)
+	var cl_o = records.cl_o;				// Total chlorine out (mg/L)
+	
+	// Option analysis: Decrease retention time
+	var new_ret_t = document.getElementById("new_ret_t").value;		// New retention time (h)
+
+	// Option analysis: Decrease retention time
+	y_cl = cl_i/(parseFloat(1)+parseFloat(1/ret_t*((cl_i/cl_o)-1)*new_ret_t));							// Resulting chlorine for new retention time
+
+	// Return output variables to HTML:
+	document.getElementById('y_cl').innerHTML = y_cl.toFixed(2);
+}
+
+// Option analysis: Rechloramination calculations
+function BRC_calc_clnh() {
+	// INPUT
+	// Acquire following input variables from localStorage:
+	// Data Entry variables
+	
+	var key = "data_key";
+	var records = JSON.parse(window.localStorage.getItem(key));
+	
+	var ret_t = records.ret_t;				// Retention time within reservoir (h)
+	var cl_i = records.cl_i;				// Total chlorine in (mg/L)
+	var cl_o = records.cl_o;				// Total chlorine out (mg/L)
+	var nh_o = records.nh_o;				// Total ammonia (mg-N/L)
+	var nano3_o = records.nano3_o;			// Nitrate out (mg-N/L)
+
+	// Option analysis: Rechloramination
+	var a_cl_1 = document.getElementById("a_cl_1").value;			// Added chlorine (kg/ML)
+	var des_cl2n_1 = document.getElementById("des_cl2n_1").value;	// Desired Cl/N
+	
+	// Option analysis: Rechloramination
+	// Ammonia to be added:
+	if ((parseFloat(a_cl_1)+parseFloat(cl_o))/des_cl2n_1-nh_o > 0)
+		y_nh_add = (parseFloat(a_cl_1)+parseFloat(cl_o))/des_cl2n_1-nh_o;
+	else
+		y_nh_add = 0;
+	
+	y_cl_im = parseFloat(cl_o)+parseFloat(a_cl_1);														// Chlorine immediately
+	y_cl_nd1 = parseFloat(cl_o)+parseFloat((a_cl_1-nano3_o*5)*Math.exp(-cl_i/cl_o/ret_t*24));			// Chlorine next day
+	
+	// Return output variables to HTML:
+	document.getElementById('y_nh_add').innerHTML = y_nh_add.toFixed(2);
+	document.getElementById('y_cl_im').innerHTML = y_cl_im.toFixed(2);
+	document.getElementById('y_cl_nd1').innerHTML = y_cl_nd1.toFixed(2);
+}
+
+// Option analysis: Rechlorination calculations
+function BRC_calc_cl() {
+	// INPUT
+	// Acquire following input variables from localStorage:
+	// Data Entry variables
+	
+	var key = "data_key";
+	var records = JSON.parse(window.localStorage.getItem(key));
+	
+	var ret_t = records.ret_t;				// Retention time within reservoir (h)
+	var cl_i = records.cl_i;				// Total chlorine in (mg/L)
+	var cl_o = records.cl_o;				// Total chlorine out (mg/L)
+	var nh_o = records.nh_o;				// Total ammonia (mg-N/L)
+	var nano3_o = records.nano3_o;			// Nitrate out (mg-N/L)
+
+	// Option analysis: Rechlorination
+	var y_cl_dose = document.getElementById("y_cl_dose").value;
+
+	// Option analysis: Rechlorination
+	y_cl_res = parseFloat(cl_o) + parseFloat(y_cl_dose);
+	des_cl2n_2 = y_cl_res/nh_o;													// Resulting chlorine
+	y_cl_nd2 = parseFloat(cl_o)+parseFloat((y_cl_dose-5*nano3_o)*Math.exp(-cl_i/cl_o/ret_t*24));		// Chlorine next day
+
+	// Return output variables to HTML:
+	document.getElementById('des_cl2n_2').innerHTML = des_cl2n_2.toFixed(2);
+	document.getElementById('y_cl_res').innerHTML = y_cl_res.toFixed(2);
+	document.getElementById('y_cl_nd2').innerHTML = y_cl_nd2.toFixed(2);
+}
+
+// Option analysis: Partial breakpoint calculations
+function BRC_calc_bp() {
+// INPUT
+	// Acquire following input variables from localStorage:
+	// Data Entry variables
+	
+	var key = "data_key";
+	var records = JSON.parse(window.localStorage.getItem(key));
+	
+	var ret_t = records.ret_t;				// Retention time within reservoir (h)
+	var cl_i = records.cl_i;				// Total chlorine in (mg/L)
+	var cl_o = records.cl_o;				// Total chlorine out (mg/L)
+	var nh_o = records.nh_o;				// Total ammonia (mg-N/L)
+	var nano3_o = records.nano3_o;			// Nitrate out (mg-N/L)
+
+	// Option analysis: Partial breakpoint
+	var des_cl2n_3 = document.getElementById("des_cl2n_3").value;	// Desired Cl/N
+	
+	// Option analysis: Partial breakpoint
+	y_cl_im_pb = des_cl2n_3*nh_o+nano3_o/2*5;									// Chlorine immediately
+	y_cl_dose_pb = y_cl_im_pb-cl_o;												// Chlorine dose
+	y_cl_nd3 = parseFloat(cl_o)+parseFloat((y_cl_dose_pb-nano3_o*5)*Math.exp(-cl_i/cl_o/ret_t*24))-0.5*nh_o;	// Chlorine next day
+	
+	// Return output variables to HTML:
+	document.getElementById('y_cl_im_pb').innerHTML = y_cl_im_pb.toFixed(2);
+	document.getElementById('y_cl_dose_pb').innerHTML = y_cl_dose_pb.toFixed(2);
+	document.getElementById('y_cl_nd3').innerHTML = y_cl_nd3.toFixed(2);
+}
+
+// System analysis calculations
+function BRC_calc_sa()
+{
+	// INPUT
+	// Acquire following input variables from HTML form:
+	// Data Entry variables
+
+	// System: variables
+	var cl_t = document.getElementById("cl_t").value;				// Total chlorine (mg/L)
+	var nh_t = document.getElementById("nh_t").value;	
+	var cl_disinf = document.getElementById("cl_disinf").value;
+	var des_temp = document.getElementById("des_temp").value;
+	var alk = document.getElementById("alk").value;					// Alkalinity (mg/L as CaCO3)
+	var ph = document.getElementById("ph").value;						// Bromide (mg/L)
+
+	// Define output variables
+	var y_cln, y_c_dec_20;
+	
+	// DATA ENTRY OUTPUT:
+	y_cln = cl_t/nh_t;							// Chlorine-to-ammonia ratio (<4.8)
+	y_c_dec_20 = (Math.pow(10,-3.113)+Math.pow(10,5.1-ph))*(81.98/(5.46-y_cln))*(0.003+0.0002*cl_t)*(3.9+0.0029*alk)*Math.exp(-3560*(1/293-1/298));	// Chloramine decay at 20 deg Cel (h^-1)
+	y_c_dec_25 = (Math.pow(10,-3.113)+Math.pow(10,5.1-ph))*(81.98/(5.46-y_cln))*(0.003+0.0002*cl_t)*(3.9+0.0029*alk)*Math.exp(-3560*(1/298-1/298));	// Chloramine decay at 25 deg Cel (h^-1)
+
+	// Return output variables to HTML:
+	document.getElementById('y_cln').innerHTML = y_cln.toFixed(2);
+	document.getElementById('y_c_dec_20').innerHTML = y_c_dec_20.toFixed(4);
+	document.getElementById('y_c_dec_25').innerHTML = y_c_dec_25.toFixed(4);
+
+	// Store updated inputs and calculations in localStorage
+	var key="sa_key";
+
+	const systemAnalysis = {
+		cl_t: cl_t,
+		nh_t: nh_t,
+		cl_disinf: cl_disinf,
+		des_temp: des_temp,
+		alk: alk,
+		ph: ph
+	}
+
+	window.localStorage.setItem(key, JSON.stringify(systemAnalysis));
+}
+
+function BRC_reset_data()
+{
+	// Return output variables to HTML with void:
+	document.getElementById('date').value = '';
+	document.getElementById('avg_vol').value = '70';
+	document.getElementById('ret_t').value = '65';
+	document.getElementById('cl_i').value = '1.5';
+	document.getElementById('cl_o').value = '1.1';
+	document.getElementById('nh_o').value = '0.35';
+	document.getElementById('pH').value = '7.6';
+	document.getElementById('temp_i').value = '21';
+	document.getElementById('temp_o').value = '20';
+	document.getElementById('nano3_o').value = '0.009';
+	document.getElementById('alk').value = '60';
+
+	// Remove error div
+	var elem = document.getElementsByClassName("error-div");
+	if (elem[0] != null) {
+		elem[0].innerHTML = '';
+	}
+
+	// Remove from localStorage
+	var key = "data_key"
+	window.localStorage.removeItem(key);
+}
+
+function BRC_reset_sp()
+{
+	// Return output variables to HTML with void:
+	document.getElementById('status_ni_i_curr').innerHTML = '';
+	document.getElementById('status_ni_i_curr').className = 'status';
+	document.getElementById('status_ni_r_curr').innerHTML = '';
+	document.getElementById('status_ni_r_curr').className = 'status';
+	document.getElementById('status_dec_curr').innerHTML = '';
+	document.getElementById('status_dec_curr').className = 'status';
+	document.getElementById('status_ni_i_pre').innerHTML = '';
+	document.getElementById('status_ni_i_pre').className = 'status';
+	document.getElementById('status_ni_r_pre').innerHTML = '';
+	document.getElementById('status_ni_r_pre').className = 'status';
+	document.getElementById('status_dec_pre').innerHTML = '';
+	document.getElementById('status_dec_pre').className = 'status';
+
+	document.getElementById('t2n').innerHTML = '';
+
+	// Remove from localStorage
+	var key = "sp_key"
+	window.localStorage.removeItem(key);
+}
+
+function BRC_reset_ret() {
+	// Return output variables to HTML with void:
+	document.getElementById('new_ret_t').value = '20';
+	document.getElementById('y_cl').innerHTML = '';
+}
+
+function BRC_reset_clnh() {
+	// Return output variables to HTML with void:
+	document.getElementById('a_cl_1').value = '0.8';
+	document.getElementById('des_cl2n_1').value = '4.2';
+	document.getElementById('y_nh_add').innerHTML = '';
+	document.getElementById('y_cl_im').innerHTML = '';
+	document.getElementById('y_cl_nd1').innerHTML = '';
+
+}
+
+function BRC_reset_cl() {
+	// Return output variables to HTML with void:
+	document.getElementById('des_cl2n_2').innerHTML = '';
+	document.getElementById('y_cl_res').innerHTML = '';
+	document.getElementById('y_cl_dose').value = '0.22';
+	document.getElementById('y_cl_nd2').innerHTML = '';
+}
+
+function BRC_reset_bp() {
+	// Return output variables to HTML with void:
+	document.getElementById('des_cl2n_3').value = '5.5';
+	document.getElementById('y_cl_im_pb').innerHTML = '';
+	document.getElementById('y_cl_dose_pb').innerHTML = '';
+	document.getElementById('y_cl_nd3').innerHTML = '';
+}
+
+function BRC_reset_sa() 
+{
+	document.getElementById("cl_t").value = '2.2';				
+	document.getElementById("nh_t").value = '0.55';	
+	document.getElementById("cl_disinf").value = 'Yes';
+	document.getElementById("des_temp").value = '25';
+	document.getElementById("alk").value = '40';					
+	document.getElementById("ph").value = '7.8';						
+	document.getElementById('y_cln').innerHTML = '';
+	document.getElementById('y_c_dec_20').innerHTML = '';
+	document.getElementById('y_c_dec_25').innerHTML = '';
+
+	// Remove from localStorage
+	var key = "sa_key"
+	window.localStorage.removeItem(key);
+}
+
+// Creates status attributes for current status of reservoir 
+function setStatus(element, status) {
+	if(status =='GREEN') {
+		element.innerHTML = "Safe";
+		element.classList.add("status-safe");
+	} else if (status == 'ORANGE'){
+		element.innerHTML = "Caution";
+		element.classList.add("status-caution");
+
+	} else if (status == 'RED') {
+		element.innerHTML = "High Risk";
+		element.classList.add("status-risk");
+	}
+}
